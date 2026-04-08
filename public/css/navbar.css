@@ -1,27 +1,41 @@
 /* Fondo personalizado */
 .navbar-plomada {
-    background-color: #003366; /* Azul oscuro náutico */
-    border-bottom: 3px solid #ff9900; /* Un detalle en naranja como una boya */
+    background-color: #003366;
+    border-bottom: 3px solid #ff9900;
     padding: 1rem 2rem;
 }
 
-/* Cambiar el color de los links */
-.navbar-plomada .nav-link {
-    color: #ffffff !important;
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-/* Efecto al pasar el mouse (hover) */
-.navbar-plomada .nav-link:hover {
-    color: #ff9900 !important;
-    transform: translateY(-2px); /* Un pequeño salto */
-}
-
-/* El nombre de la marca */
 .navbar-plomada .navbar-brand {
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.navbar-plomada .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-plomada .navbar-nav .nav-link:hover {
+    color: #ff9900;
+    transform: translateY(-2px);
+}
+
+.navbar-plomada .navbar-collapse {
+    background-color: #003366;
+}
+
+.navbar-plomada .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+
+#carouselExampleAutoplaying .carousel-item img {
+    max-height: 500px;
+    height: auto;
+    width: auto;
+    object-fit: content;
 }

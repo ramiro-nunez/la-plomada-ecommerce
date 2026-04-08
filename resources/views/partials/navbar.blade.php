@@ -2,11 +2,11 @@
 <nav class=" navbar navbar-expand-lg  navbar-plomada">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">La plomada</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" data-as-theme="white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+      <div class="navbar-nav" >
         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#en-construccion">Quienes Somos</a>
         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#en-construccion">Comercializacion</a>
         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#en-construccion">Terminos y condiciones</a>
