@@ -1,0 +1,23 @@
+<footer class="bg-dark text-light py-4 mt-5">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>La Plomada</h5>
+                <p>Equipamiento para pesca y camping en Corrientes.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Enlaces</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light text-decoration-none" data-bs-toggle="modal" data-bs-target="#en-construccion">Productos</a></li>
+                    <li><a href="#" class="text-light text-decoration-none" data-bs-toggle="modal" data-bs-target="#en-construccion">Ubicación</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Contacto</h5>
+                <p>Email: info@laplomada.com.ar</p>
+            </div>
+        </div>
+        <hr class="bg-light">
+        <p class="mb-0">&copy; {{ date('Y') }} La Plomada - Todos los derechos reservados.</p>
+    </div>
+</footer>
