@@ -7,7 +7,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav" >
-        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#en-construccion">Quienes Somos</a>
+        <a class="nav-link" href="/quienes-somos">Quienes Somos</a>
         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#en-construccion">Comercializacion</a>
         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#en-construccion">Terminos y condiciones</a>
         <a class="nav-link" href="/contactanos">Contacto</a>
