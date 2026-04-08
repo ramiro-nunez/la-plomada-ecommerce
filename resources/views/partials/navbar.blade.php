@@ -10,7 +10,7 @@
         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#en-construccion">Quienes Somos</a>
         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#en-construccion">Comercializacion</a>
         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#en-construccion">Terminos y condiciones</a>
-        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#en-construccion">Contacto</a>
+        <a class="nav-link" href="/contactanos">Contacto</a>
       </div>
     </div>
   </div>
