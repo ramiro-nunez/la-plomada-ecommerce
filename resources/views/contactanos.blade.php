@@ -1,29 +1,136 @@
 @extends('app')
-@section('title', 'Contacta con nosotros')
+
+@section('title', 'Contacto - La Plomada')
 
 @section('content')
-<div class="container mt-4">
-<div class="card mt-4">
-    <div class="card-body">
-        <h2>Formulario de contacto</h2>
-        <form action="{{url('/contacto')}}" method="POST"> <!--Hay que poner la
-            ruta a donde se envia la informacion del form y el metodo-->
-            @csrf <!-- Lo que hace es enviar un token de validacion -->
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input name="nombre" id="nombre" type="text" class="form-control" placeholder="Ingrese su nombre">
+<div class="contacto-page">
+    <section class="contacto-hero text-white text-center py-5">
+        <div class="container">
+            <i class="bi bi-chat-dots display-1 mb-3"></i>
+            <h1 class="display-4 fw-bold">Contáctanos</h1>
+            <p class="lead opacity-90">Estamos aquí para ayudarte a equipar tu próxima aventura.</p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm p-4 info-card">
+                        <i class="bi bi-telephone text-primary display-6 mb-3"></i>
+                        <h5 class="fw-bold">Teléfono</h5>
+                        <a href="tel:+543794123456" class="text-decoration-none text-muted">+54 379 412-3456</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm p-4 info-card">
+                        <i class="bi bi-envelope text-primary display-6 mb-3"></i>
+                        <h5 class="fw-bold">Email</h5>
+                        <a href="mailto:info@laplomada.com.ar" class="text-decoration-none text-muted">info@laplomada.com.ar</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm p-4 info-card">
+                        <i class="bi bi-geo-alt text-primary display-6 mb-3"></i>
+                        <h5 class="fw-bold">Dirección</h5>
+                        <p class="text-muted small">Junín 1234, Corrientes, Argentina</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm p-4 info-card">
+                        <i class="bi bi-clock text-primary display-6 mb-3"></i>
+                        <h5 class="fw-bold">Horarios</h5>
+                        <p class="text-muted small">Lun-Vie: 9:00-19:00 | Sáb: 10:00-14:00</p>
+                    </div>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input name="email" id="email" type="email" class="form-control" placeholder="Ingrese su email">
+        </div>
+    </section>
+
+    <section class="pb-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="bg-white rounded-4 shadow p-4 p-md-5">
+                        <h2 class="fw-bold mb-4">Envíanos un Mensaje</h2>
+                        <form action="#" method="POST">
+                            @csrf
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Nombre Completo *</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="Tu nombre" required>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label fw-semibold">Email *</label>
+                                    <input type="email" class="form-control" placeholder="juan@ejemplo.com" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label fw-semibold">Teléfono</label>
+                                    <input type="tel" class="form-control" placeholder="+54 379...">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Asunto *</label>
+                                <select class="form-select" required>
+                                    <option value="">Selecciona una opción</option>
+                                    <option value="1">Consulta sobre productos</option>
+                                    <option value="2">Seguimiento de pedido</option>
+                                    <option value="3">Otros</option>
+                                </select>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label fw-semibold">Mensaje *</label>
+                                <textarea class="form-control" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold py-3 shadow-sm">
+                                <i class="bi bi-send me-2"></i> Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <h2 class="fw-bold mb-4">Preguntas Frecuentes</h2>
+                    <div class="accordion accordion-flush shadow-sm rounded-3" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    ¿Hacen envíos al interior?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Sí, enviamos a todo el país a través de diversos transportes desde Corrientes.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    ¿Tienen garantía los productos?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Todos nuestros reels y cañas cuentan con garantía oficial del fabricante.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <h4 class="fw-bold mb-3">Ubicación</h4>
+                        <div class="rounded-4 overflow-hidden shadow-sm border" style="height: 250px; background: #eee; display: grid; place-items: center;">
+                            <div class="text-center">
+                                <i class="bi bi-geo-alt-fill text-danger display-4"></i>
+                                <p class="mb-0 fw-bold">Corrientes Capital</p>
+                                <small class="text-muted">Junín 1234</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="mensaje" class="form-label">Mensaje</label>
-                <textarea name="mensaje" id="mensaje" rows="3" class="form-control"></textarea>
-            </div>
-            <button type="submit" class="btn btn-success">Enviar mensaje
-            </button>
-        </form>
-    </div>
+        </div>
+    </section>
 </div>
-</div>@endsection
+@endsection

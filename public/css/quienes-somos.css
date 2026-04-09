@@ -28,3 +28,22 @@
     height: auto; /* Dejá que el aspect-ratio mande */
     border-bottom: 3px solid #0bac6e;
 }
+.dev-card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 20px !important;
+}
+
+.dev-card:hover {
+    transform: scale(1.05);
+    background: #ffffff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dev-card img {
+    filter: grayscale(20%);
+    transition: filter 0.3s;
+}
+
+.dev-card:hover img {
+    filter: grayscale(0%);
+}

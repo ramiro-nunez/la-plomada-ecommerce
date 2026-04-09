@@ -1,0 +1,34 @@
+/* Header de contacto con el degradado de La Plomada */
+.contacto-hero {
+    background: linear-gradient(135deg, #0062cc 0%, #00d4ff 100%);
+    padding: 4rem 0;
+}
+
+/* Efecto para las tarjetas de información */
+.info-card {
+    transition: all 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Ajustes en inputs del formulario */
+.contacto-page .form-control:focus,
+.contacto-page .form-select:focus {
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.25rem rgba(0, 98, 204, 0.15);
+}
+
+/* Estilo para el acordeón */
+.accordion-button:not(.collapsed) {
+    background-color: rgba(0, 98, 204, 0.05);
+    color: #0062cc;
+}
+
+.accordion-item:first-of-type,
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+}

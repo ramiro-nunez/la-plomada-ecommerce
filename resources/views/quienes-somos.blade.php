@@ -107,5 +107,75 @@
             </div>
         </div>
     </section>
+    <section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5">El Equipo detrás del Código</h2>
+        <div class="row justify-content-center g-4">
+            <div class="col-md-5 col-lg-4">
+                <!-- card antonio -->
+                <div class="card border-0 shadow-sm text-center p-4 dev-card h-100">
+                    <div class="mx-auto mb-3 rounded-circle overflow-hidden shadow-sm" style="width: 140px; height: 140px; border: 4px solid #f8f9fa;">
+                        <img src="{{ asset('img/devs/antonio.jpg') }}" alt="Antonio Quintana" class="w-100 h-100 object-fit-cover">
+                    </div>
+
+                    <h4 class="fw-bold mb-1">Antonio Quintana</h4>
+                    <p class="text-primary fw-semibold mb-3">Full Stack Developer</p>
+                    
+                    <p class="text-muted small mb-4">
+                        Estudiante de Sistemas en la <strong>UNNE</strong>. Experiencia con stack <strong>MERN</strong> y la resolución de problemas complejos mediante algoritmos eficientes. Transformo ideas en soluciones funcionales para <strong>La Plomada</strong>.
+                    </p>
+
+                    <div class="mb-4">
+                        <span class="badge bg-primary-subtle text-primary border border-primary- Beech">MERN Stack</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle">PHP</span>
+                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Data Analist</span>
+                    </div>
+
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="https://github.com/tu-usuario" target="_blank" class="btn btn-outline-dark btn-sm rounded-circle shadow-sm" title="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/tu-perfil" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle shadow-sm" title="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="mailto:quintanarijoan@gmail.com" class="btn btn-outline-danger btn-sm rounded-circle shadow-sm" title="Email">
+                            <i class="bi bi-envelope-at"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>  
+                <!-- card ramiro -->
+            <div class="col-md-5 col-lg-4">
+                <div class="card border-0 shadow-sm text-center p-4 dev-card h-100">
+                    <div class="mx-auto mb-3 rounded-circle overflow-hidden shadow-sm" style="width: 140px; height: 140px; border: 4px solid #f8f9fa;">
+                        <img src="{{ asset('img/devs/ramiro.jpg') }}" alt="Ramiro Núñez" class="w-100 h-100 object-fit-cover">
+                    </div>
+
+                    <h4 class="fw-bold mb-1">Ramiro Núñez</h4>
+                    <p class="text-primary fw-semibold mb-3">Lead Developer & AI Specialist</p>
+                    
+                    <p class="text-muted small mb-4">
+                        Estudiante de Sistemas en la UNNE. Experto en <strong>Python</strong> y automatización con <strong>n8n</strong>. Mi meta es innovar en el ecommerce local fusionando el código con la pasión por el aire libre.
+                    </p>
+
+                    <div class="mb-4">
+                        <span class="badge bg-dark-subtle text-dark border">Python</span>
+                        <span class="badge bg-dark-subtle text-dark border">JavaScript</span>
+                        <span class="badge bg-dark-subtle text-dark border">n8n</span>
+                    </div>
+
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="https://github.com/ramiro-nunez" target="_blank" class="btn btn-outline-dark btn-sm rounded-circle shadow-sm" title="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="mailto:ramirosebastiann@gmail.com" class="btn btn-outline-danger btn-sm rounded-circle shadow-sm" title="Email">
+                            <i class="bi bi-envelope-at"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </div>
 @endsection
