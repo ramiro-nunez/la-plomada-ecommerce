@@ -1,0 +1,29 @@
+/* Estilos para el header de comercio */
+.masthead {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    min-height: 60vh;
+    height: 500px;
+}
+
+.titulo-seccion {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 0rem;
+    color: white;
+    text-shadow: 3px 3px 10px #222;
+}
+
+.subtitulo-seccion {
+    font-size: 1.25rem;
+    color: #2D4030;
+    text-shadow: 2px 2px 8px #222;
+}
+
+.fondo {
+    background-color: #F9F7F2;
+}

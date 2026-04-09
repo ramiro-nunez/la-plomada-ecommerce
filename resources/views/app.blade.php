@@ -6,10 +6,12 @@
   <title>La Plomada - @yield('title')</title>
   <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
 </head>
 
 <body>
-  @include('partials.navbar') <main>
+  @include('partials.navbar') 
+  <main>
     @yield('content')
   </main>
 
