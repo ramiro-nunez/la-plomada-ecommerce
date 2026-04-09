@@ -11,7 +11,7 @@
 }
 
 .titulo-seccion {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     padding-top: 0rem;
     color: white;
@@ -19,9 +19,9 @@
 }
 
 .subtitulo-seccion {
-    font-size: 1.25rem;
+    font-size: 3rem;
+    font-weight: 600;
     color: #2D4030;
-    text-shadow: 2px 2px 8px #222;
 }
 
 .fondo {

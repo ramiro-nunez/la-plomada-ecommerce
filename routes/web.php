@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/comercio', function () {
     return view('comercio');
 });
+
+Route::get('/terms', function () {
+    return view('terminos');
+});
