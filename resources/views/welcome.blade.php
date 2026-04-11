@@ -4,7 +4,7 @@
 @section('content')
 <!-- Carrousel de bienvenida -->
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
-    <div class="carousel-inner">
+  <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="{{ asset('img/banners/bann3.png')}}" class="d-block w-100" alt="...">
       </div>

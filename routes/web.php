@@ -10,4 +10,11 @@ Route::get('/contactanos', function () {
 });
 Route::get('/quienes-somos', function () {
     return view('quienes-somos');
+
+Route::get('/comercio', function () {
+    return view('comercio');
+});
+
+Route::get('/terms', function () {
+    return view('terminos');
 });
