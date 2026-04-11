@@ -1,0 +1,49 @@
+/* Para que las tarjetas tengan un efecto al pasar el mouse */
+.shadow-hover {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.shadow-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+/* Limitar el ancho del texto en secciones largas */
+.max-w-700 {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.quienes-hero {
+    background:
+        linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)),
+        url("../img/sobrenos/nos-confianza.png");
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 16 / 8; /* El alto se calcula solo en base al ancho */
+    min-height: 200px; /* Nunca medirá menos de esto */
+    max-height: 500px;
+    height: auto; /* Dejá que el aspect-ratio mande */
+    border-bottom: 3px solid #0bac6e;
+}
+.dev-card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 20px !important;
+}
+
+.dev-card:hover {
+    transform: scale(1.05);
+    background: #ffffff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dev-card img {
+    filter: grayscale(20%);
+    transition: filter 0.3s;
+}
+
+.dev-card:hover img {
+    filter: grayscale(0%);
+}
