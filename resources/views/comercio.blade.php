@@ -13,36 +13,36 @@
             <div class="row g-4 justify-content-center max-w-5xl mx-auto">
                 <!-- Info Card 1 -->
                 <div class="col-md-6">
-                    <div class="card h-100 border-0 shadow-sm p-3 hover-shadow transition">
+                    <div class="card h-100 border-0 shadow-sm p-3 dev-card">
                         <div class="card-body text-center">
-                            <h3 class="h5 fw-bold mb-3">Envíos a Todo el País</h3>
+                            <h3 class="h4 fw-bold mb-3">Envíos a Todo el País</h3>
                             <p class="text-secondary mb-0">Realizamos envíos a todas las provincias de Argentina a través de los principales servicios de mensajería.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Info Card 2 -->
                 <div class="col-md-6">
-                    <div class="card h-100 border-0 shadow-sm p-3">
+                    <div class="card h-100 border-0 shadow-sm p-3 dev-card">
                         <div class="card-body text-center">
-                            <h3 class="h5 fw-bold mb-3">Tiempos de Entrega</h3>
+                            <h3 class="h4 fw-bold mb-3">Tiempos de Entrega</h3>
                             <p class="text-secondary mb-0">Corrientes y Chaco: 2-4 días hábiles. Resto del país: 5-10 días hábiles según la zona.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Info Card 3 -->
                 <div class="col-md-6">
-                    <div class="card h-100 border-0 shadow-sm p-3">
+                    <div class="card h-100 border-0 shadow-sm p-3 dev-card">
                         <div class="card-body text-center">
-                            <h3 class="h5 fw-bold mb-3">Envío Gratis</h3>
+                            <h3 class="h4 fw-bold mb-3">Envío Gratis</h3>
                             <p class="text-secondary mb-0">En compras superiores a $80.000 el envío es totalmente gratuito a cualquier punto del país.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Info Card 4 -->
                 <div class="col-md-6">
-                    <div class="card h-100 border-0 shadow-sm p-3">
+                    <div class="card h-100 border-0 shadow-sm p-3 dev-card">
                         <div class="card-body text-center">
-                            <h3 class="h5 fw-bold mb-3">Retiro en Sucursal</h3>
+                            <h3 class="h4 fw-bold mb-3">Retiro en Sucursal</h3>
                             <p class="text-secondary mb-0">Podés retirar tu pedido sin cargo en nuestra sucursal de Corrientes Capital coordinando previamente.</p>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-8">
                     <div class="card shadow-sm border-0 overflow-hidden">
-                        <div class="card-header bg-primary bg-gradient text-white py-3 border-0">
+                        <div class="card-header text-white py-3 text-center" style="background-color: #2D4030;">
                             <h3 class="h5 fw-bold mb-0">Costos de Envío</h3>
                         </div>
                         <div class="card-body p-0">
@@ -105,14 +105,14 @@
         <div class="container py-4">
             <div class="text-center mb-5">
                 <i class="bi bi-credit-card text-primary icon-lg mb-3 d-inline-block"></i>
-                <h2 class="display-6 fw-bold mb-3">Medios de Pago</h2>
+                <h2 class="display-6 fw-bold mb-3 subtitulo-seccion">Medios de Pago</h2>
                 <p class="text-secondary">Ofrecemos múltiples opciones de pago para tu comodidad y seguridad</p>
             </div>
             
             <div class="row g-4">
                 <!-- Pay Method 1 -->
                 <div class="col-sm-6 col-lg-3">
-                    <div class="card h-100 bg-light-subtle shadow-sm border p-3">
+                    <div class="card h-100 bg-light-subtle shadow-sm border p-3 dev-card">
                         <div class="card-body">
                             <div class="fs-1 mb-3 d-inline-block">💳</div>
                             <h3 class="h6 fw-bold mb-3">Tarjetas de Crédito</h3>
@@ -122,7 +122,7 @@
                 </div>
                 <!-- Pay Method 2 -->
                 <div class="col-sm-6 col-lg-3">
-                    <div class="card h-100 bg-light-subtle shadow-sm border p-3">
+                    <div class="card h-100 bg-light-subtle shadow-sm border p-3 dev-card">
                         <div class="card-body">
                             <div class="fs-1 mb-3 d-inline-block">💰</div>
                             <h3 class="h6 fw-bold mb-3">Tarjetas de Débito</h3>
@@ -132,7 +132,7 @@
                 </div>
                 <!-- Pay Method 3 -->
                 <div class="col-sm-6 col-lg-3">
-                    <div class="card h-100 bg-light-subtle shadow-sm border p-3">
+                    <div class="card h-100 bg-light-subtle shadow-sm border p-3 dev-card">
                         <div class="card-body">
                             <div class="fs-1 mb-3 d-inline-block">🏦</div>
                             <h3 class="h6 fw-bold mb-3">Transferencia Bancaria</h3>
@@ -142,7 +142,7 @@
                 </div>
                 <!-- Pay Method 4 -->
                 <div class="col-sm-6 col-lg-3">
-                    <div class="card h-100 bg-light-subtle shadow-sm border p-3">
+                    <div class="card h-100 bg-light-subtle shadow-sm border p-3 dev-card">
                         <div class="card-body">
                             <div class="fs-1 mb-3 d-inline-block">💵</div>
                             <h3 class="h6 fw-bold mb-3">Mercado Pago</h3>
@@ -154,7 +154,7 @@
             <!-- Payment Security Alert -->
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-8">
-                    <div class="alert alert-primary d-flex align-items-start p-4 shadow-sm" role="alert">
+                    <div class="alert alert-success d-flex align-items-start p-4 shadow-sm">
                         <i class="bi bi-shield-lock-fill fs-3 me-3 mt-1"></i>
                         <div>
                             <h4 class="alert-heading h6 fw-bold">Seguridad en los Pagos</h4>
@@ -168,29 +168,29 @@
     <!-- Policies -->
     <section class="fondo py-5">
         <div class="container py-4">
-            <h2 class="display-6 fw-bold text-center mb-5">Políticas de Venta</h2>
+            <h2 class="display-6 fw-bold text-center mb-5 subtitulo-seccion">Políticas de Venta</h2>
             <div class="row g-4 justify-content-center">
                 <!-- Policy 1 -->
                 <div class="col-lg-6">
-                    <div class="card h-100 border-0 shadow-sm p-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 dev-card">
                         <div class="card-body">
-                            <i class="bi bi-arrow-counterclockwise text-primary fs-1 mb-4 d-block"></i>
+                            <i class="bi bi-arrow-counterclockwise text-success fs-1 mb-4 d-block"></i>
                             <h3 class="h4 fw-bold mb-4">Política de Devoluciones</h3>
                             <ul class="list-unstyled space-y-3">
                                 <li class="d-flex align-items-start mb-3">
-                                    <i class="bi bi-circle-fill text-primary mt-1 me-2" style="font-size: 0.5rem;"></i>
+                                    <i class="bi bi-circle-fill text-success mt-1 me-2" style="font-size: 0.5rem;"></i>
                                     <span class="text-secondary">30 días para devolver productos sin usar</span>
                                 </li>
                                 <li class="d-flex align-items-start mb-3">
-                                    <i class="bi bi-circle-fill text-primary mt-1 me-2" style="font-size: 0.5rem;"></i>
+                                    <i class="bi bi-circle-fill text-success mt-1 me-2" style="font-size: 0.5rem;"></i>
                                     <span class="text-secondary">Producto en su embalaje original</span>
                                 </li>
                                 <li class="d-flex align-items-start mb-3">
-                                    <i class="bi bi-circle-fill text-primary mt-1 me-2" style="font-size: 0.5rem;"></i>
+                                    <i class="bi bi-circle-fill text-success mt-1 me-2" style="font-size: 0.5rem;"></i>
                                     <span class="text-secondary">Reembolso completo o cambio por otro artículo</span>
                                 </li>
                                 <li class="d-flex align-items-start">
-                                    <i class="bi bi-circle-fill text-primary mt-1 me-2" style="font-size: 0.5rem;"></i>
+                                    <i class="bi bi-circle-fill text-success mt-1 me-2" style="font-size: 0.5rem;"></i>
                                     <span class="text-secondary">Gastos de envío a cargo del cliente (excepto defectos)</span>
                                 </li>
                             </ul>
@@ -199,25 +199,25 @@
                 </div>
                 <!-- Policy 2 -->
                 <div class="col-lg-6">
-                    <div class="card h-100 border-0 shadow-sm p-4">
+                    <div class="card h-100 border-0 shadow-sm p-4 dev-card">
                         <div class="card-body">
-                            <i class="bi bi-box-seam-fill text-primary fs-1 mb-4 d-block"></i>
+                            <i class="bi bi-box-seam-fill text-success fs-1 mb-4 d-block"></i>
                             <h3 class="h4 fw-bold mb-4">Productos Defectuosos</h3>
                             <ul class="list-unstyled">
                                 <li class="d-flex align-items-start mb-3">
-                                    <i class="bi bi-circle-fill text-primary mt-1 me-2" style="font-size: 0.5rem;"></i>
+                                    <i class="bi bi-circle-fill text-success mt-1 me-2" style="font-size: 0.5rem;"></i>
                                     <span class="text-secondary">Cambio inmediato sin costo adicional</span>
                                 </li>
                                 <li class="d-flex align-items-start mb-3">
-                                    <i class="bi bi-circle-fill text-primary mt-1 me-2" style="font-size: 0.5rem;"></i>
+                                    <i class="bi bi-circle-fill text-success mt-1 me-2" style="font-size: 0.5rem;"></i>
                                     <span class="text-secondary">Garantía del fabricante incluida</span>
                                 </li>
                                 <li class="d-flex align-items-start mb-3">
-                                    <i class="bi bi-circle-fill text-primary mt-1 me-2" style="font-size: 0.5rem;"></i>
+                                    <i class="bi bi-circle-fill text-success mt-1 me-2" style="font-size: 0.5rem;"></i>
                                     <span class="text-secondary">Envío de reemplazo sin cargo</span>
                                 </li>
                                 <li class="d-flex align-items-start">
-                                    <i class="bi bi-circle-fill text-primary mt-1 me-2" style="font-size: 0.5rem;"></i>
+                                    <i class="bi bi-circle-fill text-success mt-1 me-2" style="font-size: 0.5rem;"></i>
                                     <span class="text-secondary">Atención prioritaria en casos de defecto</span>
                                 </li>
                             </ul>
@@ -229,14 +229,14 @@
     </section>
 
     <!-- Contact CTA -->
-    <section class="py-5 bg-primary bg-gradient text-white">
+    <section class="py-5 text-white" style="background-color: #2D4030;">
         <div class="container py-4 text-center">
             <div class="mx-auto" style="max-width: 800px;">
                 <h2 class="display-6 fw-bold mb-3">¿Tienes dudas sobre tu compra?</h2>
                 <p class="lead opacity-75 mb-5">Nuestro equipo está disponible para ayudarte con cualquier consulta</p>
                 
                 <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
-                    <a href="#" class="btn btn-light rounded-pill px-4 py-3 fw-bold text-primary d-flex align-items-center justify-content-center gap-2">
+                    <a href="#" class="btn btn-light rounded-pill px-4 py-3 fw-bold text-success d-flex align-items-center justify-content-center gap-2">
                         <i class="bi bi-telephone-fill"></i> +54 11 1234-5678
                     </a>
                     <a href="#" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 border-2">

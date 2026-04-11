@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
   <link rel="stylesheet" href="{{ asset('css/quienes-somos.css') }}">
   <link rel="stylesheet" href="{{ asset('css/contactanos.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/comercio.css') }}">
 </head>
 
-<body>
+<body class="fondo">
   @include('partials.navbar') 
   <main>
     @yield('content')

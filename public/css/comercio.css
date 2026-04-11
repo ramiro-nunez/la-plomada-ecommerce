@@ -11,14 +11,15 @@
 }
 
 .titulo-seccion {
+    font-style: italic;
     font-size: 4rem;
     font-weight: 700;
-    padding-top: 0rem;
     color: white;
     text-shadow: 3px 3px 10px #222;
 }
 
 .subtitulo-seccion {
+    font-style: italic;
     font-size: 3rem;
     font-weight: 600;
     color: #2D4030;
@@ -26,4 +27,15 @@
 
 .fondo {
     background-color: #F9F7F2;
+}
+
+.dev-card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 20px;
+}
+
+.dev-card:hover {
+    transform: scale(1.05);
+    background: #ffffff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
