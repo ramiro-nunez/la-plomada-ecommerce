@@ -15,8 +15,12 @@
                 <div class="col-md-6">
                     <div class="card h-100 border-0 shadow-sm p-3 dev-card">
                         <div class="card-body text-center">
-                            <h3 class="h4 fw-bold mb-3">Envíos a Todo el País</h3>
-                            <p class="text-secondary mb-0">Realizamos envíos a todas las provincias de Argentina a través de los principales servicios de mensajería.</p>
+                            <h3 class="h4 fw-bold mb-3">
+                                <i class="bi bi-truck me-2"></i>
+                                Envíos a Todo el País
+                            </h3>
+                            <p class="text-secondary mb-0">
+                                Realizamos envíos a todas las provincias de Argentina a través de los principales servicios de mensajería.</p>
                         </div>
                     </div>
                 </div>
@@ -24,7 +28,10 @@
                 <div class="col-md-6">
                     <div class="card h-100 border-0 shadow-sm p-3 dev-card">
                         <div class="card-body text-center">
-                            <h3 class="h4 fw-bold mb-3">Tiempos de Entrega</h3>
+                            <h3 class="h4 fw-bold mb-3">
+                                <i class="bi bi-clock me-2"></i>
+                                Tiempos de Entrega
+                            </h3>
                             <p class="text-secondary mb-0">Corrientes y Chaco: 2-4 días hábiles. Resto del país: 5-10 días hábiles según la zona.</p>
                         </div>
                     </div>
@@ -33,7 +40,10 @@
                 <div class="col-md-6">
                     <div class="card h-100 border-0 shadow-sm p-3 dev-card">
                         <div class="card-body text-center">
-                            <h3 class="h4 fw-bold mb-3">Envío Gratis</h3>
+                            <h3 class="h4 fw-bold mb-3">
+                                <i class="bi bi-gift me-2"></i>
+                                Envío Gratis
+                            </h3>
                             <p class="text-secondary mb-0">En compras superiores a $80.000 el envío es totalmente gratuito a cualquier punto del país.</p>
                         </div>
                     </div>
@@ -42,7 +52,10 @@
                 <div class="col-md-6">
                     <div class="card h-100 border-0 shadow-sm p-3 dev-card">
                         <div class="card-body text-center">
-                            <h3 class="h4 fw-bold mb-3">Retiro en Sucursal</h3>
+                            <h3 class="h4 fw-bold mb-3">
+                                <i class="bi bi-shop me-2"></i>
+                                Retiro en Sucursal
+                            </h3>
                             <p class="text-secondary mb-0">Podés retirar tu pedido sin cargo en nuestra sucursal de Corrientes Capital coordinando previamente.</p>
                         </div>
                     </div>
@@ -101,10 +114,8 @@
         </div>
     </div>
     <!-- Payment Methods -->
-    <section class="fondo py-5 ">
         <div class="container py-4">
             <div class="text-center mb-5">
-                <i class="bi bi-credit-card text-primary icon-lg mb-3 d-inline-block"></i>
                 <h2 class="display-6 fw-bold mb-3 subtitulo-seccion">Medios de Pago</h2>
                 <p class="text-secondary">Ofrecemos múltiples opciones de pago para tu comodidad y seguridad</p>
             </div>
@@ -114,7 +125,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="card h-100 bg-light-subtle shadow-sm border p-3 dev-card">
                         <div class="card-body">
-                            <div class="fs-1 mb-3 d-inline-block">💳</div>
+                            <i class="bi bi-credit-card fs-1 mb-3 d-inline-block"></i>
                             <h3 class="h6 fw-bold mb-3">Tarjetas de Crédito</h3>
                             <p class="small text-secondary mb-0">Visa, Mastercard, American Express. Hasta 12 cuotas sin interés en productos seleccionados.</p>
                         </div>
@@ -124,7 +135,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="card h-100 bg-light-subtle shadow-sm border p-3 dev-card">
                         <div class="card-body">
-                            <div class="fs-1 mb-3 d-inline-block">💰</div>
+                            <i class="bi bi-coin fs-1 mb-3 d-inline-block"></i>
                             <h3 class="h6 fw-bold mb-3">Tarjetas de Débito</h3>
                             <p class="small text-secondary mb-0">Todas las tarjetas de débito. Pago en un solo pago con acreditación inmediata.</p>
                         </div>
@@ -134,7 +145,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="card h-100 bg-light-subtle shadow-sm border p-3 dev-card">
                         <div class="card-body">
-                            <div class="fs-1 mb-3 d-inline-block">🏦</div>
+                            <i class="bi bi-bank fs-1 mb-3 d-inline-block"></i>
                             <h3 class="h6 fw-bold mb-3">Transferencia Bancaria</h3>
                             <p class="small text-secondary mb-0">10% de descuento pagando por transferencia o depósito bancario.</p>
                         </div>
@@ -144,7 +155,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="card h-100 bg-light-subtle shadow-sm border p-3 dev-card">
                         <div class="card-body">
-                            <div class="fs-1 mb-3 d-inline-block">💵</div>
+                            <i class="bi bi-wallet2 fs-1 mb-3 d-inline-block"></i>
                             <h3 class="h6 fw-bold mb-3">Mercado Pago</h3>
                             <p class="small text-secondary mb-0">Todas las opciones de pago de Mercado Pago. Protección al comprador incluida.</p>
                         </div>
@@ -164,7 +175,6 @@
                 </div>
             </div>
         </div>
-    </section>
     <!-- Policies -->
     <section class="fondo py-5">
         <div class="container py-4">
@@ -236,11 +246,11 @@
                 <p class="lead opacity-75 mb-5">Nuestro equipo está disponible para ayudarte con cualquier consulta</p>
                 
                 <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
-                    <a href="#" class="btn btn-light rounded-pill px-4 py-3 fw-bold text-success d-flex align-items-center justify-content-center gap-2">
-                        <i class="bi bi-telephone-fill"></i> +54 11 1234-5678
+                    <a href="#" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 border-2">
+                        <i class="bi bi-telephone-fill"></i> +54 3794 11-1111
                     </a>
                     <a href="#" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 border-2">
-                        <i class="bi bi-envelope-fill"></i> info@pescacamp.com
+                        <i class="bi bi-envelope-fill"></i> info@laplomada.com.ar
                     </a>
                 </div>
             </div>
