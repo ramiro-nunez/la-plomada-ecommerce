@@ -3,6 +3,7 @@
 @section('title', 'Quiénes Somos - La Plomada')
 
 @section('content')
+<link rel="stylesheet" href="{{ asset('css/quienes-somos.css') }}">
 <div class="bg-light">
     <section class="text-white d-flex align-items-center justify-content-center quienes-hero">
         <h1 class="display-3 fw-bold">Sobre Nosotros</h1>

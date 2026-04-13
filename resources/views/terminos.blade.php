@@ -2,6 +2,7 @@
 @section('title', 'Comercialización')
 
 @section('content')
+<link rel="stylesheet" href="{{ asset('css/comercio.css') }}">
     <div class="masthead" style="background-image: url('{{ asset('img/terminos/terminos.png') }}')">
         <div class="container">
             <h1 class="titulo-seccion text-center">TÉRMINOS Y CONDICIONES</h1>
