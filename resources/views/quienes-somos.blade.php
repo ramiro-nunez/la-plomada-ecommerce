@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="p-4 border rounded-3 h-100 shadow-hover">
-                        <i class="bi bi-target text-primary display-5 mb-3"></i>
+                        <i class="bi bi-bullseye text-primary display-5 mb-3"></i>
                         <h3 class="h5 fw-bold">Compromiso</h3>
                         <p class="small text-muted">Nos comprometemos con tu satisfacción y el cuidado del medio ambiente.</p>
                     </div>
@@ -118,7 +118,7 @@
                         <img src="{{ asset('img/devs/antonio.jpg') }}" alt="Antonio Quintana" class="w-100 h-100 object-fit-cover">
                     </div>
 
-                    <h4 class="fw-bold mb-1">Antonio Quintana</h4>
+                    <h4 class="fw-bold mb-1">Antonio Quintana <i class="bi bi-patch-check-fill text-primary"></i></h4>
                     <p class="text-primary fw-semibold mb-3">Full Stack Developer</p>
                     
                     <p class="text-muted small mb-4">
@@ -151,7 +151,7 @@
                         <img src="{{ asset('img/devs/ramiro.jpg') }}" alt="Ramiro Núñez" class="w-100 h-100 object-fit-cover">
                     </div>
 
-                    <h4 class="fw-bold mb-1">Ramiro Núñez</h4>
+                    <h4 class="fw-bold mb-1">Ramiro Núñez <i class="bi bi-patch-check-fill text-primary"></i></h4>
                     <p class="text-primary fw-semibold mb-3">Lead Developer & AI Specialist</p>
                     
                     <p class="text-muted small mb-4">
