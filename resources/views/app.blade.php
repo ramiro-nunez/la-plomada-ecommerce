@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="{{ asset('css/comercio.css') }}">
 </head>
 
-<body class="fondo">
+<body class="d-flex flex-column min-vh-100">
   @include('partials.navbar') 
-  <main>
+  <main class="flex-grow-1">
     @yield('content')
   </main>
 

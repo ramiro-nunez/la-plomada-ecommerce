@@ -1,39 +1,46 @@
 /* Fondo personalizado */
 .navbar-plomada {
-    background-color: #2D4030;
+    background-color: #2d4030;
     border-bottom: 3px solid #ff9900;
     padding: 1rem 2rem;
+    min-height: auto;
 }
 
-.navbar-plomada .navbar-brand {
+.navbar-brand {
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
 }
-
-.navbar-plomada .navbar-nav .nav-link {
+.navbar-brand:hover {
+    color: #ff9900;
+    transform: scale(1.1) rotate(3deg);
+}
+.nav-link {
     color: #ffffff;
     font-weight: 500;
     transition: color 0.3s ease;
+    transition: transform 0.2s ease-in-out;
 }
 
-.navbar-plomada .navbar-nav .nav-link:hover {
+.nav-link:hover {
     color: #ff9900;
     transform: translateY(-2px);
 }
 
-.navbar-plomada .navbar-collapse {
-    background-color: #2D4030;
+.navbar-collapse {
+    background-color: #2d4030;
 }
 
-.navbar-plomada .navbar-toggler-icon {
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-#carouselExampleAutoplaying .carousel-item img{
+#carouselExampleAutoplaying .carousel-item img {
     height: 100%;
-    width: 100%;
+    /*width: 100%;*/
     max-width: 900px;
     object-fit: contain;
     object-position: center;

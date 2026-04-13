@@ -1,5 +1,5 @@
 <footer class="text-light py-4" style="background-color: #4A4A4A;">
-    <div class="container text-center">
+    <div class="container-fluid text-center">
         <div class="row">
             <div class="col-md-4">
                 <h5>La Plomada</h5>
