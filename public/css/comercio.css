@@ -1,6 +1,7 @@
 /* Estilos para el header de comercio */
-.masthead {
+.encabezado-comercio {
     position: relative;
+    background: linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)), url('../img/comercializacion/vendedor.png');
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -8,14 +9,20 @@
     padding-bottom: 8rem;
     min-height: 60vh;
     height: 500px;
+    
 }
 
-.titulo-seccion {
-    font-style: italic;
-    font-size: 4rem;
-    font-weight: 700;
-    color: white;
-    text-shadow: 3px 3px 10px #222;
+.encabezado-terms {
+    position: relative;
+    background: linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)), url('../img/terminos/terminos.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    min-height: 60vh;
+    height: 500px;
+    
 }
 
 .subtitulo-seccion {
