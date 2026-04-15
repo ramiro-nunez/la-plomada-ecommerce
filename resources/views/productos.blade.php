@@ -5,7 +5,7 @@
 @section('content')
 <div class="fondo pb-2">
     <section class="encabezado-catalogo d-flex align-items-center justify-content-center">
-        <h1 class="display-3 text-white fw-bold">CATÁLOGO</h1>
+        <h1 class="display-3 text-white fw-bold">CATÁLOGOoo  ooo</h1>
     </section>
     <!-- container Reeles -->
     <section class="mt-0" style="background-color: #2D4030;">
