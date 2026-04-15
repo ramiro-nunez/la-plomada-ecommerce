@@ -7,10 +7,6 @@
   <title>La Plomada - @yield('title')</title>
   <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/quienes-somos.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/contactanos.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/comercio.css') }}">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
