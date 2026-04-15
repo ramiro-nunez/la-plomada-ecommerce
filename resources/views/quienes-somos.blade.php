@@ -8,7 +8,7 @@
     <section class="text-white d-flex align-items-center justify-content-center quienes-hero">
         <h1 class="display-3 fw-bold">Sobre Nosotros</h1>
     </section>
-
+ 
     <section class="py-3">
         <div class="container">
             <div class="row justify-content-center">
