@@ -160,33 +160,30 @@
     <section class=" my-5 ">
     <div class="container">
         <h2 class="text-center subtitulo-seccion fw-bold mb-5">Indumentaria</h2>
-        <div class="row justify-content-evenly align-items-center g-4">
+        <div class="row row-cols-3 justify-content-evenly align-items-center g-4">
             <!-- card caña1 -->
-            <div class="col-sm-3">
+            <div class="col-sm-3 p-2 p-md-3">
                 <div class="border shadow-sm text-center p-4 product-card">
                     <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
                         <img src="{{ asset('img/catalogo/camisa.png') }}" class="w-100 h-100 object-fit-cover">
                     </div>
                     <h4 class="text-success fw-bold mb-0">$110.000</h4>
                     <h5 class="fw-semibold mb-0">Camisa de Pesca Columbia PFG con Filtro UV</h5>
-                    <!-- <p class="text-muted small mb-4">
-                        Caña telescópica de fibra de vidrio reforzada. Ideal para la pesca de pejerrey o variada de río. Su diseño compacto la hace perfecta para transportar en el baúl del auto. Acción media y pasahilos de óxido de aluminio.
-                    </p> -->
                 </div>
             </div>
             <!-- card caña2 -->
             <div class="col-sm-3">
                 <div class="border shadow-sm text-center p-4 product-card">
-                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                    <div class=" mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
                         <img src="{{ asset('img/catalogo/wader.png') }}" class="w-100 h-100 ">
                     </div>
-                    <h4 class="text-success fw-bold mb-0">$350.000</h4>
-                    <h5 class="fw-semibold mb-0">Wader de Neoprene Waterdog (4mm)</h5>
+                    <h4 class=" text-success fw-bold mb-0">$350.000</h4>
+                    <h5 class=" fw-semibold mb-0">Wader de Neoprene Waterdog (4mm)</h5>
                 </div>
             </div>
             <!-- card caña3 -->
             <div class="col-sm-3">
-                <div class="border shadow-sm text-center p-4 product-card">
+                <div class="border shadow-sm text-center p-4 product-card ">
                     <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
                         <img src="{{ asset('img/catalogo/bolso.png') }}" class="w-100 h-100 ">
                     </div>
