@@ -11,7 +11,7 @@
     <section class="mt-0" style="background-color: #2D4030;">
     <div class="container py-5">
         <h2 class="text-center subtitulo-seccion text-white fw-bold mb-5">Reeles</h2>
-        <div class="row justify-content-evenly g-4">
+        <div class="row justify-content-evenly align-items-center g-4">
             <!-- card reel1 -->
             <div class="col-sm-3">
                 <div class="shadow-sm text-center p-4 product-card">
@@ -46,10 +46,10 @@
     </div>
     </section>
     <!-- container Cañas -->
-    <section class=" my-5 ">
+    <section class=" my-5">
     <div class="container">
         <h2 class="text-center subtitulo-seccion fw-bold mb-5">Cañas</h2>
-        <div class="row justify-content-evenly g-4">
+        <div class="row justify-content-evenly align-items-center g-4">
             <!-- card caña1 -->
             <div class="col-sm-3">
                 <div class="border shadow-sm text-center p-4 product-card">
