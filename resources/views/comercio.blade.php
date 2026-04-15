@@ -1,6 +1,6 @@
 @extends('app')
 @section('title', 'Comercialización')
-
+ 
 @section('content')
 <link rel="stylesheet" href="{{ asset('css/comercio.css') }}">
     <div class="masthead" style="background-image: url('{{ asset('img/comercializacion/vendedor.png') }}')">
@@ -64,8 +64,8 @@
             </div>
             <!-- Shipping Costs Table -->
             <div class="row justify-content-center mt-5">
-                <div class="col-lg-8">
-                    <div class="card shadow-sm border-0 overflow-hidden">
+                <div class="col col-lg-8">
+                    <div class="card shadow-sm border-0 d-flex flex-column">
                         <div class="card-header text-white py-3 text-center" style="background-color: #2D4030;">
                             <h3 class="h5 fw-bold mb-0">Costos de Envío</h3>
                         </div>
@@ -76,34 +76,34 @@
                                         <tr>
                                             <th class="py-3 px-4 border-bottom-2">Zona</th>
                                             <th class="py-3 px-4 border-bottom-2">Costo</th>
-                                            <th class="py-3 px-4 border-bottom-2">Tiempo</th>
+                                            <th class="d-none d-md-table-cell py-3 px-4 border-bottom-2">Tiempo</th>
                                         </tr>
                                     </thead>
                                     <tbody class="text-secondary text-nowrap">
                                         <tr>
                                             <td class="py-3 px-4">Corrientes Capital</td>
                                             <td class="py-3 px-4 fw-semibold text-dark">$2.500</td>
-                                            <td class="py-3 px-4">24-48 horas</td>
+                                            <td class="d-none d-md-table-cell py-3 px-4">24-48 horas</td>
                                         </tr>
                                         <tr>
                                             <td class="py-3 px-4">Interior de Corrientes</td>
                                             <td class="py-3 px-4 fw-semibold text-dark">$10.000</td>
-                                            <td class="py-3 px-4">3-4 días</td>
+                                            <td class="d-none d-md-table-cell py-3 px-4">3-4 días</td>
                                         </tr>
                                         <tr>
                                             <td class="py-3 px-4">Interior (Norte)</td>
                                             <td class="py-3 px-4 fw-semibold text-dark">$15.000</td>
-                                            <td class="py-3 px-4">5-7 días</td>
+                                            <td class="d-none d-md-table-cell py-3 px-4">5-7 días</td>
                                         </tr>
                                         <tr>
                                             <td class="py-3 px-4">Interior (Centro/Sur)</td>
                                             <td class="py-3 px-4 fw-semibold text-dark">$15.000</td>
-                                            <td class="py-3 px-4">7-10 días</td>
+                                            <td class="d-none d-md-table-cell py-3 px-4">7-10 días</td>
                                         </tr>
                                         <tr class="table-success">
                                             <td class="py-3 px-4 fw-bold text-dark">Compras +$80.000</td>
                                             <td class="py-3 px-4 fw-bold text-success">GRATIS</td>
-                                            <td class="py-3 px-4 text-dark">Según zona</td>
+                                            <td class="d-none d-md-table-cell py-3 px-4 text-dark">Según zona</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -115,7 +115,8 @@
         </div>
     </div>
     <!-- Payment Methods -->
-        <div class="container py-4">
+    <div class="fondo py-4">
+        <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-6 fw-bold mb-3 subtitulo-seccion">Medios de Pago</h2>
                 <p class="text-secondary">Ofrecemos múltiples opciones de pago para tu comodidad y seguridad</p>
@@ -176,6 +177,7 @@
                 </div>
             </div>
         </div>
+    </div>
     <!-- Policies -->
     <section class="fondo py-5">
         <div class="container py-4">
