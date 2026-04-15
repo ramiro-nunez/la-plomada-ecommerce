@@ -25,6 +25,19 @@
     
 }
 
+.encabezado-catalogo {
+    position: relative;
+    background: linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)), url('../img/catalogo/catalogo.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    min-height: 60vh;
+    height: 500px;
+    
+}
+
 .subtitulo-seccion {
     font-style: italic;
     font-size: 3rem;
@@ -44,5 +57,17 @@
 .dev-card:hover {
     transform: scale(1.05);
     background: #ffffff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.product-card {
+    background-color: #2D4030;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 20px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    background-color: #2D4030;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }

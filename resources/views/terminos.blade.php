@@ -32,8 +32,8 @@
                     <div class="card-body text-start">
                         <h3 class="h5 fw-bold mb-3">Medios de Pago y Facturación</h3>
                         <p class="text-secondary mb-0">Aceptamos tarjetas de crédito, tarjetas de débito, Mercado Pago y transferencias bancarias directas.
-                            <br>Las promociones o descuentos por pago en efectivo/transferencia se aplican únicamente sobre el valor de los productos y no sobre
-                            <br>el costo de envío. Emitimos Factura C (o A, según corresponda) la cual será enviada al correo electrónico registrado por el usuario.</p>
+                            <br/>Las promociones o descuentos por pago en efectivo/transferencia se aplican únicamente sobre el valor de los productos y no sobre
+                            <br/>el costo de envío. Emitimos Factura C (o A, según corresponda) la cual será enviada al correo electrónico registrado por el usuario.</p>
                     </div>
                 </div>
             </div>
@@ -41,11 +41,11 @@
             <div class="row g-4 justify-content-center max-w-5xl mx-auto py-4">
                 <div class="card h-100 border-0 shadow-sm p-3 dev-card">
                     <div class="card-body text-start">
-                        <h3 class="h5 fw-bold mb-3">Envíos y Entregas</h3>
+                        <h3 class="subtitulo-seccion mb-3">Productos</h3>
                         <p class="text-secondary mb-0">Realizamos envíos a todo el territorio de la República Argentina.
-                            <br>Los plazos de entrega estimados (que varían entre 2 y 10 días hábiles dependiendo de la provincia) comienzan a regir 
-                            <br>a partir del momento en que se acredita el pago, no desde la generación del pedido. 
-                            <br>Los envíos gratuitos aplican únicamente a compras que superen el monto mínimo establecido en la web al momento de la compra.</p>
+                            <br/>Los plazos de entrega estimados (que varían entre 2 y 10 días hábiles dependiendo de la provincia) comienzan a regir 
+                            <br/>a partir del momento en que se acredita el pago, no desde la generación del pedido. 
+                            <br/>Los envíos gratuitos aplican únicamente a compras que superen el monto mínimo establecido en la web al momento de la compra.</p>
                     </div>
                 </div>
             </div>
