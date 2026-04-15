@@ -1,4 +1,5 @@
 <!-- Componente del navbar -->
+<link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
 <nav class="navbar navbar-expand-lg navbar-plomada">
   <div class="container-fluid d-flex justify-content-center">
       <a class="navbar-brand" href="/">La plomada</a>

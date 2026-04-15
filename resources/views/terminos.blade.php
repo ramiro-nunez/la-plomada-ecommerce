@@ -2,8 +2,11 @@
 @section('title', 'Comercialización')
 
 @section('content')
-    <div class="encabezado-terms d-flex align-items-center justify-content-center">
-        <h1 class="fw-bold text-white display-3 text-center">TÉRMINOS Y CONDICIONES</h1>
+<link rel="stylesheet" href="{{ asset('css/comercio.css') }}">
+    <div class="masthead" style="background-image: url('{{ asset('img/terminos/terminos.png') }}')">
+        <div class="container">
+            <h1 class="titulo-seccion text-center">TÉRMINOS Y CONDICIONES</h1>
+        </div>
     </div>
     <div class="fondo py-5">
         <div class="container py-4">

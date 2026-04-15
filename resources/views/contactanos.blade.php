@@ -3,6 +3,7 @@
 @section('title', 'Contacto - La Plomada')
 
 @section('content')
+<link rel="stylesheet" href="{{ asset('css/contactanos.css') }}">
 <div class="contacto-page">
     <section class="contacto-hero text-white text-center py-5">
         <div class="container">

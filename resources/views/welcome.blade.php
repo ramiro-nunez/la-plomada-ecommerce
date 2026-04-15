@@ -25,6 +25,7 @@
     </button>
   </div> 
   <!-- Fin Carrousel -->
+  @include('registro-usuario')
 @endsection
 
   
