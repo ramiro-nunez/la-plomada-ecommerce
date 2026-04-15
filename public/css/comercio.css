@@ -9,7 +9,7 @@
     padding-bottom: 8rem;
     min-height: 60vh;
     height: 500px;
-    
+    border-bottom: 3px solid #ff9900;
 }
 
 .encabezado-terms {
@@ -22,6 +22,20 @@
     padding-bottom: 8rem;
     min-height: 60vh;
     height: 500px;
+    border-bottom: 3px solid #ff9900;
+}
+
+.encabezado-catalogo {
+    position: relative;
+    background: linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)), url('../img/catalogo/catalogo.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    min-height: 60vh;
+    height: 500px;
+    border-bottom: 3px solid #ff9900;
     
 }
 
@@ -32,13 +46,15 @@
     color: #2d4030;
 }
 
-.dev-card {
+.product-card {
+    background-color: #ffffff;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border-radius: 20px;
+    border-radius: 10px;
+    min-height: 70vh;
 }
 
-.dev-card:hover {
+.product-card:hover {
     transform: scale(1.05);
-    background: #ffffff;
+    background-color: #ffffff;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }

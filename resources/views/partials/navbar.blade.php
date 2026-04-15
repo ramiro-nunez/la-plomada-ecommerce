@@ -10,6 +10,7 @@
         <div class="navbar-nav text-center" >
           <a class="nav-link" href="/quienes-somos">Quienes Somos</a>
           <a class="nav-link" href="/comercio" >Comercializacion</a>
+          <a class="nav-link" href="/productos" >Catálogo</a>
           <a class="nav-link" href="/terms">Terminos y condiciones</a>
           <a class="nav-link" href="/contactanos">Contacto</a>
         </div>

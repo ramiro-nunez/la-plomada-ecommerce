@@ -18,3 +18,7 @@ Route::get('/comercio', function () {
 Route::get('/terms', function () {
     return view('terminos');
 });
+
+Route::get('/productos', function () {
+    return view('productos');
+});
