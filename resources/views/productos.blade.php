@@ -3,99 +3,199 @@
 @section('title', 'Productos - La Plomada')
 
 @section('content')
-<div class="fondo">
+<div class="fondo pb-2">
     <section class="encabezado-catalogo d-flex align-items-center justify-content-center">
         <h1 class="display-3 text-white fw-bold">CATÁLOGO</h1>
     </section>
-    <section class="py-5 ">
+    <!-- container Reeles -->
+    <section class="mt-0" style="background-color: #2D4030;">
+    <div class="container py-5">
+        <h2 class="text-center subtitulo-seccion text-white fw-bold mb-5">Reeles</h2>
+        <div class="row justify-content-evenly g-4">
+            <!-- card reel1 -->
+            <div class="col-sm-3">
+                <div class="shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/reel1.png') }}" class="w-100 h-100 ">
+                    </div>
+                    <h4 class="text-success fw-bold mb-0">$85.000</h4>
+                    <h5 class="fw-semibold mb-0">Reel Frontal Daiwa Sweepfire 4000</h5>
+                </div>
+            </div>
+            <!-- card reel2 -->
+            <div class="col-sm-3">
+                <div class="shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/reel2.png') }}" class="w-100 h-100 ">
+                    </div>
+                    <h4 class="text-success fw-bold mb-0">$195.000</h4>
+                    <h5 class="fw-semibold mb-0">Reel Rotativo Abu Garcia Black Max (Huevito)</h5>
+                </div>
+            </div>
+            <!-- card reel3 -->
+            <div class="col-sm-3">
+                <div class="shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/reel3.png') }}" class="w-100 h-100 ">
+                    </div>
+                    <h4 class="text-success fw-bold mb-0">$280.000</h4>
+                    <h5 class="fw-semibold mb-0">Reel Rotativo Penn Squall Level Wind (Trolling)</h5>
+                </div>
+            </div>  
+        </div>
+    </div>
+    </section>
+    <!-- container Cañas -->
+    <section class=" my-5 ">
     <div class="container">
         <h2 class="text-center subtitulo-seccion fw-bold mb-5">Cañas</h2>
-        <div class="row justify-content-center g-4">
+        <div class="row justify-content-evenly g-4">
             <!-- card caña1 -->
-            <div class="col-md-5 col-lg-4">
-                <div class="card border shadow-sm text-center p-4 dev-card h-100">
-                    <div class="mx-auto mb-3 overflow-hidden shadow-sm" style="width: 140px; height: 140px; border: 4px solid #f8f9fa;">
-                        <img src="{{ asset('img/devs/antonio.jpg') }}" alt="Antonio Quintana" class="w-100 h-100 object-fit-cover">
+            <div class="col-sm-3">
+                <div class="border shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/cana1.png') }}" class="w-100 h-100 object-fit-cover">
                     </div>
-                    <h5 class="fw-bold mb-1">Caña Telescópica Shimano FX (3.00m)</h5>
-                    <h4 class="text-success fw-semibold mb-3">$145.000</h4>
-                    <p class="text-muted small mb-4">
+                    <h4 class="text-success fw-bold mb-0">$145.000</h4>
+                    <h5 class="fw-semibold mb-0">Caña Telescópica Shimano FX (3.00m)</h5>
+                    <!-- <p class="text-muted small mb-4">
                         Caña telescópica de fibra de vidrio reforzada. Ideal para la pesca de pejerrey o variada de río. Su diseño compacto la hace perfecta para transportar en el baúl del auto. Acción media y pasahilos de óxido de aluminio.
-                    </p>
+                    </p> -->
                 </div>
             </div>
             <!-- card caña2 -->
-            <div class="col-md-5 col-lg-4">
-                <div class="card border shadow-sm text-center p-4 dev-card h-100">
-                    <div class="mx-auto mb-3 overflow-hidden shadow-sm" style="width: 140px; height: 140px; border: 4px solid #f8f9fa;">
-                        <img src="{{ asset('img/devs/antonio.jpg') }}" alt="Antonio Quintana" class="w-100 h-100 object-fit-cover">
+            <div class="col-sm-3">
+                <div class="border shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/cana2.png') }}" class="w-100 h-100 ">
                     </div>
-                    <h5 class="fw-bold mb-1">Caña Baitcasting Marine Sports Titan (1.98m)</h5>
-                    <h4 class="text-success fw-semibold mb-3">$210.000</h4>
-                    <p class="text-muted small mb-4">
-                        Diseñada para los pescadores más exigentes. Construida en fibra de carbono de alto módulo, ofrece una acción rápida ideal para dorados y tarariras. Mango de corcho ergonómico y gatillo sensitivo.
-                    </p>
+                    <h4 class="text-success fw-bold mb-0">$210.000</h4>
+                    <h5 class="fw-semibold mb-0">Caña Baitcasting Marine Sports Titan (1.98m)</h5>
                 </div>
             </div>
             <!-- card caña3 -->
-            <div class="col-md-5 col-lg-4">
-                <div class="card border shadow-sm text-center p-4 dev-card h-100">
-                    <div class="mx-auto mb-3 overflow-hidden shadow-sm" style="width: 140px; height: 140px; border: 4px solid #f8f9fa;">
-                        <img src="{{ asset('img/devs/antonio.jpg') }}" alt="Antonio Quintana" class="w-100 h-100 object-fit-cover">
+            <div class="col-sm-3">
+                <div class="border shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/cana3.png') }}" class="w-100 h-100 ">
                     </div>
-                    <h5 class="fw-bold mb-1">Caña de Mosca Waterdog Fly Series (#5)</h5>
-                    <h4 class="text-success fw-semibold mb-3">$185.000</h4>
-                    <p class="text-muted small mb-4">
-                        El equipo perfecto para iniciarse en el Fly Cast. Acción media-rápida, 4 tramos para fácil transporte. Construida en grafito IM7, permite lances de precisión tanto en lagos patagónicos como en arroyos.
-                    </p>
+                    <h4 class="text-success fw-bold mb-0">$185.000</h4>
+                    <h5 class="fw-semibold mb-0">Caña de Mosca Waterdog Fly Series (#5)</h5>
                 </div>
             </div>  
         </div>
     </div>
-    <div class="container mt-5">
-        <h2 class="text-center subtitulo-seccion fw-bold mb-5">Reeles</h2>
-        <div class="row justify-content-center g-4">
-            <!-- card caña1 -->
-            <div class="col-md-5 col-lg-4">
-                <div class="card border shadow-sm text-center p-4 dev-card h-100">
-                    <div class="mx-auto mb-3 overflow-hidden shadow-sm" style="width: 140px; height: 140px; border: 4px solid #f8f9fa;">
-                        <img src="{{ asset('img/devs/antonio.jpg') }}" alt="Antonio Quintana" class="w-100 h-100 object-fit-cover">
+    </section>
+    <!-- container Accesorios y Herramientas -->
+    <section class=" " style="background-color: #1B263B;">
+    <div class="container py-5">
+        <h2 class="text-center text-white subtitulo-seccion fw-bold mb-5">Accesorios y Herramientas</h2>
+        <div class="row justify-content-evenly align-items-center g-4">
+            <!-- card herramienta1 -->
+            <div class="col-sm-3">
+                <div class="shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/señuelo1.png') }}" class="w-100 h-100 object-fit-cover">
                     </div>
-                    <h5 class="fw-bold mb-1">Caña Telescópica Shimano FX (3.00m)</h5>
-                    <h4 class="text-success fw-semibold mb-3">$145.000</h4>
-                    <p class="text-muted small mb-4">
-                        Caña telescópica de fibra de vidrio reforzada. Ideal para la pesca de pejerrey o variada de río. Su diseño compacto la hace perfecta para transportar en el baúl del auto. Acción media y pasahilos de óxido de aluminio.
-                    </p>
+                    <h4 class="text-success fw-bold mb-0">$32.000</h4>
+                    <h5 class="fw-semibold mb-0">Señuelo Rapala Super Shad Rap (14cm)</h5>
                 </div>
             </div>
-            <!-- card caña2 -->
-            <div class="col-md-5 col-lg-4">
-                <div class="card border shadow-sm text-center p-4 dev-card h-100">
-                    <div class="mx-auto mb-3 overflow-hidden shadow-sm" style="width: 140px; height: 140px; border: 4px solid #f8f9fa;">
-                        <img src="{{ asset('img/devs/antonio.jpg') }}" alt="Antonio Quintana" class="w-100 h-100 object-fit-cover">
+            <!-- card herramienta2 -->
+            <div class="col-sm-3">
+                <div class="shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/señuelo2.png') }}" class="w-100 h-100 ">
                     </div>
-                    <h5 class="fw-bold mb-1">Caña Baitcasting Marine Sports Titan (1.98m)</h5>
-                    <h4 class="text-success fw-semibold mb-3">$210.000</h4>
-                    <p class="text-muted small mb-4">
-                        Diseñada para los pescadores más exigentes. Construida en fibra de carbono de alto módulo, ofrece una acción rápida ideal para dorados y tarariras. Mango de corcho ergonómico y gatillo sensitivo.
-                    </p>
+                    <h4 class="text-success fw-bold mb-0">$12.500</h4>
+                    <h5 class="fw-semibold mb-0">Señuelo Cuchara Giratoria Mepps Aglia (N°4)</h5>
                 </div>
             </div>
-            <!-- card caña3 -->
-            <div class="col-md-5 col-lg-4">
-                <div class="card border shadow-sm text-center p-4 dev-card h-100">
-                    <div class="mx-auto mb-3 overflow-hidden shadow-sm" style="width: 140px; height: 140px; border: 4px solid #f8f9fa;">
-                        <img src="{{ asset('img/devs/antonio.jpg') }}" alt="Antonio Quintana" class="w-100 h-100 object-fit-cover">
+            <!-- card herramienta3 -->
+            <div class="col-sm-3">
+                <div class="shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/hilo.png') }}" class="w-100 h-100 ">
                     </div>
-                    <h5 class="fw-bold mb-1">Caña de Mosca Waterdog Fly Series (#5)</h5>
-                    <h4 class="text-success fw-semibold mb-3">$185.000</h4>
-                    <p class="text-muted small mb-4">
-                        El equipo perfecto para iniciarse en el Fly Cast. Acción media-rápida, 4 tramos para fácil transporte. Construida en grafito IM7, permite lances de precisión tanto en lagos patagónicos como en arroyos.
-                    </p>
+                    <h4 class="text-success fw-bold mb-0">$48.000</h4>
+                    <h5 class="fw-semibold mb-0">Hilo Multifilamento Sufix 832 (Rollo 150m)</h5>
+                </div>
+            </div>  
+        </div>
+        <div class="row justify-content-evenly align-items-center g-4 mt-1">
+            <!-- card herramienta4 -->
+            <div class="col-sm-3">
+                <div class="shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/anzuelo.png') }}" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <h4 class="text-success fw-bold mb-0">$15.000</h4>
+                    <h5 class="fw-semibold mb-0">Caja de Anzuelos Mustad Serie 92247 (x50 unidades)</h5>
+                </div>
+            </div>
+            <!-- card herramienta5 -->
+            <div class="col-sm-3">
+                <div class="shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/caja.png') }}" class="w-100 h-100 ">
+                    </div>
+                    <h4 class="text-success fw-bold mb-0">$65.000</h4>
+                    <h5 class="fw-semibold mb-0">Caja de Pesca Plano 3 Bandejas Articuladas</h5>
+                </div>
+            </div>
+            <!-- card herramienta6 -->
+            <div class="col-sm-3">
+                <div class="shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/pinza.png') }}" class="w-100 h-100 ">
+                    </div>
+                    <h4 class="text-success fw-bold mb-0">$22.000</h4>
+                    <h5 class="fw-semibold mb-0">Pinza de Pesca Multifunción Spinit (Acero Inox)</h5>
                 </div>
             </div>  
         </div>
     </div>
-</section>
+    </section>
+    <!-- container Indumentaria -->
+    <section class=" my-5 ">
+    <div class="container">
+        <h2 class="text-center subtitulo-seccion fw-bold mb-5">Indumentaria</h2>
+        <div class="row justify-content-evenly align-items-center g-4">
+            <!-- card caña1 -->
+            <div class="col-sm-3">
+                <div class="border shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/camisa.png') }}" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <h4 class="text-success fw-bold mb-0">$110.000</h4>
+                    <h5 class="fw-semibold mb-0">Camisa de Pesca Columbia PFG con Filtro UV</h5>
+                    <!-- <p class="text-muted small mb-4">
+                        Caña telescópica de fibra de vidrio reforzada. Ideal para la pesca de pejerrey o variada de río. Su diseño compacto la hace perfecta para transportar en el baúl del auto. Acción media y pasahilos de óxido de aluminio.
+                    </p> -->
+                </div>
+            </div>
+            <!-- card caña2 -->
+            <div class="col-sm-3">
+                <div class="border shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/wader.png') }}" class="w-100 h-100 ">
+                    </div>
+                    <h4 class="text-success fw-bold mb-0">$350.000</h4>
+                    <h5 class="fw-semibold mb-0">Wader de Neoprene Waterdog (4mm)</h5>
+                </div>
+            </div>
+            <!-- card caña3 -->
+            <div class="col-sm-3">
+                <div class="border shadow-sm text-center p-4 product-card">
+                    <div class="mx-auto mb-1 overflow-hidden shadow-sm" style="width: 100%; height: 100%;">
+                        <img src="{{ asset('img/catalogo/bolso.png') }}" class="w-100 h-100 ">
+                    </div>
+                    <h4 class="text-success fw-bold mb-0">$42.000</h4>
+                    <h5 class="fw-semibold mb-0">Bolso Estanco DryBag 20 Litros</h5>
+                </div>
+            </div>  
+        </div>
+    </div>
+    </section>
 </div>
 @endsection

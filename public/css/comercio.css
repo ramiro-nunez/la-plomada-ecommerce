@@ -9,7 +9,7 @@
     padding-bottom: 8rem;
     min-height: 60vh;
     height: 500px;
-    
+    border-bottom: 3px solid #ff9900;
 }
 
 .encabezado-terms {
@@ -22,7 +22,7 @@
     padding-bottom: 8rem;
     min-height: 60vh;
     height: 500px;
-    
+    border-bottom: 3px solid #ff9900;
 }
 
 .encabezado-catalogo {
@@ -35,6 +35,7 @@
     padding-bottom: 8rem;
     min-height: 60vh;
     height: 500px;
+    border-bottom: 3px solid #ff9900;
     
 }
 
@@ -49,25 +50,15 @@
     background-color: #F9F7F2;
 }
 
-.dev-card {
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border-radius: 20px;
-}
-
-.dev-card:hover {
-    transform: scale(1.05);
-    background: #ffffff;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-}
-
 .product-card {
-    background-color: #2D4030;
+    background-color: #ffffff;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border-radius: 20px;
+    border-radius: 10px;
+    min-height: 70vh;
 }
 
 .product-card:hover {
     transform: scale(1.05);
-    background-color: #2D4030;
+    background-color: #ffffff;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
