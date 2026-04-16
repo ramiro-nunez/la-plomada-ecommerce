@@ -2,11 +2,8 @@
 @section('title', 'Comercialización')
  
 @section('content')
-<link rel="stylesheet" href="{{ asset('css/comercio.css') }}">
-    <div class="masthead" style="background-image: url('{{ asset('img/comercializacion/vendedor.png') }}')">
-        <div class="container">
-            <h1 class="titulo-seccion text-center">COMERCIALIZACIÓN</h1>
-        </div>
+    <div class="encabezado-comercio d-flex align-items-center justify-content-center">
+        <h1 class="fw-bold text-white display-3 text-center">COMERCIALIZACIÓNnnnnnn</h1>
     </div>
     <div class="fondo py-5">
         <div class="container py-4">
