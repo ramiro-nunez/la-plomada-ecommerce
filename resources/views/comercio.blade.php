@@ -3,7 +3,7 @@
  
 @section('content')
     <div class="encabezado-comercio d-flex align-items-center justify-content-center">
-        <h1 class="fw-bold text-white display-3 text-center">COMERCIALIZACIÓN</h1>
+        <h1 class="fw-bold text-white display-3 text-center">COMERCIALIZACIÓNnnnnnn</h1>
     </div>
     <div class="fondo py-5">
         <div class="container py-4">
