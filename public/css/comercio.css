@@ -27,7 +27,7 @@
 
 .encabezado-catalogo {
     position: relative;
-    background: linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)), url('../img/catalogo/catalogo.png');
+    background: linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)), url('../img/catalogo/catalogo.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
