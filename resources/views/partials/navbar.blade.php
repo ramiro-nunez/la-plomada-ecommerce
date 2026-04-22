@@ -14,7 +14,7 @@
           <a class="nav-link {{ request()->is('contactanos') ? 'nav-active' : ''}}" href="/contactanos">Contacto</a>
         </div>
       </div>
-      <button class="btn btn-info mx-4">Iniciar Sesión</button>
+      <a class="btn btn-success mx-4" href="/iniciar-sesion">Iniciar Sesión</a>
   </div>
 </nav>
 <!-- Fin Navbar -->
