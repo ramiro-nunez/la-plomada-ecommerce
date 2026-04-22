@@ -43,14 +43,17 @@
     font-style: italic;
     font-size: 3rem;
     font-weight: 600;
-    color: #2d4030;
+    color: #2D4030;
+}
+
+.fondo {
+    background-color: #F9F7F2;
 }
 
 .product-card {
     background-color: #ffffff;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border-radius: 10px;
-    min-height: 70vh;
 }
 
 .product-card:hover {

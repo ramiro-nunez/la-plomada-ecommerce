@@ -1,12 +1,9 @@
 @extends('app')
 @section('title', 'Comercialización')
- 
+
 @section('content')
-<link rel="stylesheet" href="{{ asset('css/comercio.css') }}">
-    <div class="masthead" style="background-image: url('{{ asset('img/comercializacion/vendedor.png') }}')">
-        <div class="container">
-            <h1 class="titulo-seccion text-center">COMERCIALIZACIÓN</h1>
-        </div>
+    <div class="encabezado-comercio d-flex align-items-center justify-content-center">
+        <h1 class="fw-bold text-white display-3 text-center">COMERCIALIZACIÓN</h1>
     </div>
     <div class="fondo py-5">
         <div class="container py-4">
@@ -74,36 +71,36 @@
                                 <table class="table table-hover mb-0">
                                     <thead class="table-light">
                                         <tr>
-                                            <th class="py-3 px-4 border-bottom-2">Zona</th>
-                                            <th class="py-3 px-4 border-bottom-2">Costo</th>
-                                            <th class="d-none d-md-table-cell py-3 px-4 border-bottom-2">Tiempo</th>
+                                            <th class="py-3 px-3 border-bottom-2">Zona</th>
+                                            <th class="py-3 px-3 border-bottom-2">Costo</th>
+                                            <th class="d-none d-md-table-cell py-3 px-3 border-bottom-2">Tiempo</th>
                                         </tr>
                                     </thead>
                                     <tbody class="text-secondary text-nowrap">
                                         <tr>
-                                            <td class="py-3 px-4">Corrientes Capital</td>
-                                            <td class="py-3 px-4 fw-semibold text-dark">$2.500</td>
-                                            <td class="d-none d-md-table-cell py-3 px-4">24-48 horas</td>
+                                            <td class="py-3 px-3">Corrientes Capital</td>
+                                            <td class="py-3 px-3 fw-semibold text-dark">$2.500</td>
+                                            <td class="d-none d-md-table-cell py-3 px-3">24-48 horas</td>
                                         </tr>
                                         <tr>
-                                            <td class="py-3 px-4">Interior de Corrientes</td>
-                                            <td class="py-3 px-4 fw-semibold text-dark">$10.000</td>
-                                            <td class="d-none d-md-table-cell py-3 px-4">3-4 días</td>
+                                            <td class="py-3 px-3">Interior de Corrientes</td>
+                                            <td class="py-3 px-3 fw-semibold text-dark">$10.000</td>
+                                            <td class="d-none d-md-table-cell py-3 px-3">3-4 días</td>
                                         </tr>
                                         <tr>
-                                            <td class="py-3 px-4">Interior (Norte)</td>
-                                            <td class="py-3 px-4 fw-semibold text-dark">$15.000</td>
-                                            <td class="d-none d-md-table-cell py-3 px-4">5-7 días</td>
+                                            <td class="py-3 px-3">Interior (Norte)</td>
+                                            <td class="py-3 px-3 fw-semibold text-dark">$15.000</td>
+                                            <td class="d-none d-md-table-cell py-3 px-3">5-7 días</td>
                                         </tr>
                                         <tr>
-                                            <td class="py-3 px-4">Interior (Centro/Sur)</td>
-                                            <td class="py-3 px-4 fw-semibold text-dark">$15.000</td>
-                                            <td class="d-none d-md-table-cell py-3 px-4">7-10 días</td>
+                                            <td class="py-3 px-3">Interior (Centro/Sur)</td>
+                                            <td class="py-3 px-3 fw-semibold text-dark">$15.000</td>
+                                            <td class="d-none d-md-table-cell py-3 px-3">7-10 días</td>
                                         </tr>
                                         <tr class="table-success">
-                                            <td class="py-3 px-4 fw-bold text-dark">Compras +$80.000</td>
-                                            <td class="py-3 px-4 fw-bold text-success">GRATIS</td>
-                                            <td class="d-none d-md-table-cell py-3 px-4 text-dark">Según zona</td>
+                                            <td class="py-3 px-3 fw-bold text-dark">Compras +$80.000</td>
+                                            <td class="py-3 px-3 fw-bold text-success">GRATIS</td>
+                                            <td class="d-none d-md-table-cell py-3 px-3 text-dark">Según zona</td>
                                         </tr>
                                     </tbody>
                                 </table>
