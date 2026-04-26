@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="contacto-page">
-    <section class="contacto-hero text-white text-center py-5">
+    <section class="contacto-hero text-white d-flex align-items-center text-center py-5">
         <div class="container">
             <i class="bi bi-chat-dots display-1 mb-3"></i>
             <h1 class="display-4 fw-bold">CONTÁCTANOS</h1>
@@ -53,20 +53,20 @@
                 <div class="col-lg-7">
                     <div class="bg-white rounded-4 shadow p-4 p-md-5">
                         <h2 class="fw-bold mb-4">Envíanos un Mensaje</h2>
-                        <form action="#" method="POST">
+                        <form action="{{ url('/contactanos') }}" method="POST">
                             @csrf
                             <div class="mb-3">
-                                <label class="form-label fw-semibold">Nombre Completo *</label>
-                                <input type="text" class="form-control form-control-lg" placeholder="Tu nombre" required>
+                                <label for="nombre" class="form-label fw-semibold">Nombre Completo *</label>
+                                <input type="text" id="nombre" name="nombre" class="form-control form-control-lg" placeholder="Tu nombre" required>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 mb-3">
-                                    <label class="form-label fw-semibold">Email *</label>
-                                    <input type="email" class="form-control" placeholder="juan@ejemplo.com" required>
+                                    <label for="email" class="form-label fw-semibold">Email *</label>
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="juan@ejemplo.com" required>
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <label class="form-label fw-semibold">Teléfono</label>
-                                    <input type="tel" class="form-control" placeholder="+54 379...">
+                                    <label for="telefono" class="form-label fw-semibold">Teléfono</label>
+                                    <input type="tel" id="telefono" class="form-control" placeholder="+54 379...">
                                 </div>
                             </div>
                             <div class="mb-3">
