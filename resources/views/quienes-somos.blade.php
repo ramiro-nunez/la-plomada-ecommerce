@@ -3,7 +3,6 @@
 @section('title', 'Quiénes Somos')
 
 @section('content')
-<div class="bg-light">
     <section class="text-white d-flex align-items-center justify-content-center quienes-hero">
         <h1 class="display-3 fw-bold">SOBRE NOSOTROS</h1>
     </section>
@@ -36,33 +35,33 @@
         </div>
     </section>
 
-    <section class="py-5 bg-white">
+    <section class="py-5">
         <div class="container text-center">
             <h2 class="fw-bold mb-5">Nuestros Valores</h2>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div class="p-4 border rounded-3 h-100 shadow-hover">
+                    <div class="p-4 border rounded-3 h-100 shadow-hover bg-light">
                         <i class="bi bi-heart-fill text-success display-5 mb-3"></i>
                         <h3 class="h5 fw-bold">Pasión por la Naturaleza</h3>
                         <p class="small text-muted">Amamos lo que hacemos y compartimos tu pasión por las actividades al aire libre.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="p-4 border rounded-3 h-100 shadow-hover">
+                    <div class="p-4 border rounded-3 h-100 shadow-hover bg-light">
                         <i class="bi bi-award-fill text-success display-5 mb-3"></i>
                         <h3 class="h5 fw-bold">Calidad Garantizada</h3>
                         <p class="small text-muted">Seleccionamos cuidadosamente productos de marcas reconocidas y confiables.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="p-4 border rounded-3 h-100 shadow-hover">
+                    <div class="p-4 border rounded-3 h-100 shadow-hover bg-light">
                         <i class="bi bi-people-fill text-success display-5 mb-3"></i>
                         <h3 class="h5 fw-bold">Comunidad</h3>
                         <p class="small text-muted">Somos más que una tienda, somos una comunidad de aventureros y pescadores.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="p-4 border rounded-3 h-100 shadow-hover">
+                    <div class="p-4 border rounded-3 h-100 shadow-hover bg-light">
                         <i class="bi bi-bullseye text-success display-5 mb-3"></i>
                         <h3 class="h5 fw-bold">Compromiso</h3>
                         <p class="small text-muted">Nos comprometemos con tu satisfacción y el cuidado del medio ambiente.</p>
@@ -107,7 +106,7 @@
             </div>
         </div>
     </section>
-    <section class="py-5 bg-light">
+    <section class="py-5">
     <div class="container">
         <h2 class="text-center fw-bold mb-5">El Equipo detrás del Código</h2>
         <div class="row justify-content-center g-4">
@@ -177,5 +176,4 @@
         </div>
     </div>
 </section>
-</div>
 @endsection
