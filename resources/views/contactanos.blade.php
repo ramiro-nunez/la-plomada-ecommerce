@@ -17,28 +17,28 @@
             <div class="row g-4 text-center">
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 border-0 shadow-sm p-4 info-card">
-                        <i class="bi bi-telephone text-primary display-6 mb-3"></i>
+                        <i class="bi bi-telephone text-success display-6 mb-3"></i>
                         <h5 class="fw-bold">Teléfono</h5>
                         <a href="tel:+543794123456" class="text-decoration-none text-muted">+54 379 412-3456</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 border-0 shadow-sm p-4 info-card">
-                        <i class="bi bi-envelope text-primary display-6 mb-3"></i>
+                        <i class="bi bi-envelope text-success display-6 mb-3"></i>
                         <h5 class="fw-bold">Email</h5>
                         <a href="mailto:info@laplomada.com.ar" class="text-decoration-none text-muted">info@laplomada.com.ar</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 border-0 shadow-sm p-4 info-card">
-                        <i class="bi bi-geo-alt text-primary display-6 mb-3"></i>
+                        <i class="bi bi-geo-alt text-success display-6 mb-3"></i>
                         <h5 class="fw-bold">Dirección</h5>
                         <p class="text-muted small">Junín 1234, Corrientes, Argentina</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 border-0 shadow-sm p-4 info-card">
-                        <i class="bi bi-clock text-primary display-6 mb-3"></i>
+                        <i class="bi bi-clock text-success display-6 mb-3"></i>
                         <h5 class="fw-bold">Horarios</h5>
                         <p class="text-muted small">Lun-Vie: 9:00-19:00 | Sáb: 10:00-14:00</p>
                     </div>
@@ -82,7 +82,7 @@
                                 <label class="form-label fw-semibold">Mensaje *</label>
                                 <textarea class="form-control" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold py-3 shadow-sm">
+                            <button type="submit" class="btn btn-success btn-lg w-100 fw-bold py-3 shadow-sm">
                                 <i class="bi bi-send me-2"></i> Enviar Mensaje
                             </button>
                         </form>
