@@ -46,7 +46,7 @@
     border-bottom: 2px solid #ff9900;
 }
 
-#carouselExampleAutoplaying .carousel-item img {
+.carousel {
     height: 100%;
     /*width: 100%;*/
     max-width: 900px;
