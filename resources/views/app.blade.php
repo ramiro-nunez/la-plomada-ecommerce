@@ -15,7 +15,7 @@
 
 <body class="d-flex flex-column min-vh-100">
   @include('partials.navbar') 
-  <main class="flex-grow-1">
+  <main class="flex-grow-1 fondo" >
     @yield('content')
   </main>
 
