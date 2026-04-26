@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('title', 'Productos - La Plomada')
+@section('title', 'Productos')
 
 @section('content')
 <div class="fondo pb-2">

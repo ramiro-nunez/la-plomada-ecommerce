@@ -22,3 +22,9 @@ Route::get('/terms', function () {
 Route::get('/productos', function () {
     return view('productos');
 });
+Route::get('/iniciar-sesion', function () {
+    return view('iniciar-sesion');
+});
+Route::get('/registrarse', function () {
+    return view('registro-usuario');
+});

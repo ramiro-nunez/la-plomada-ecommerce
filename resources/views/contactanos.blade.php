@@ -1,13 +1,13 @@
 @extends('app')
 
-@section('title', 'Contacto - La Plomada')
+@section('title', 'Contacto')
 
 @section('content')
 <div class="contacto-page">
     <section class="contacto-hero text-white text-center py-5">
         <div class="container">
             <i class="bi bi-chat-dots display-1 mb-3"></i>
-            <h1 class="display-4 fw-bold">Contáctanos</h1>
+            <h1 class="display-4 fw-bold">CONTÁCTANOS</h1>
             <p class="lead opacity-90">Estamos aquí para ayudarte a equipar tu próxima aventura.</p>
         </div>
     </section>

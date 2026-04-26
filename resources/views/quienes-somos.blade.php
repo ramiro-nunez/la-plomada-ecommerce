@@ -1,11 +1,11 @@
 @extends('app')
 
-@section('title', 'Quiénes Somos - La Plomada')
+@section('title', 'Quiénes Somos')
 
 @section('content')
 <div class="bg-light">
     <section class="text-white d-flex align-items-center justify-content-center quienes-hero">
-        <h1 class="display-3 fw-bold">Sobre Nosotros</h1>
+        <h1 class="display-3 fw-bold">SOBRE NOSOTROS</h1>
     </section>
  
     <section class="py-3">
