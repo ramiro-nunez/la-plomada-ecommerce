@@ -16,7 +16,7 @@
             <input class="form-control" type="password" placeholder="********">
             <span>¿No posee una cuenta?</span><a class="btn btn-info m-2" href="/registrarse">Registrese</a>
             <div class="row m-1 ">
-              <a class="btn btn-success mt-3 mx-auto"  href="/home" >Ingresar</a>
+              <a class="btn btn-success mt-3 mx-auto"  href="/" >Ingresar</a>
               <a class="btn btn-danger mt-2 mx-auto">Cancelar</a>
             </div>
           </form>

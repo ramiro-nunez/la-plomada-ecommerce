@@ -10,7 +10,7 @@
             <br>Un miembro del equipo de ventas se pondrá en contacto con vos al correo: <strong>{{ $email }}</strong> 
             <br>¡Muchas gracias! 
         </p>
-        <a class="btn btn-outline-success mx-4" href="/home">Volver al Inicio</a>
+        <a class="btn btn-outline-success mx-4" href="/">Volver al Inicio</a>
     </div>
 </section>
 @endsection

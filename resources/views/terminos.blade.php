@@ -12,7 +12,7 @@
                 <!-- Info Card 1 -->
                 <div class="h-100 border-0 shadow-sm p-3 card">
                     <div class="card-body text-start">
-                        <h3 class="subtitulo-seccion mb-3">Aspectos Generales</h3>
+                        <h3 class="h3 subtitulo-seccion mb-3">Aspectos Generales</h3>
                         <p class="text-secondary mb-0">Al utilizar nuestro sitio web y realizar compras, usted acepta los siguientes términos y condiciones. <br>Le recomendamos leerlos atentamente antes de finalizar cualquier transacción. <br>Este sitio es operado desde la ciudad de Corrientes, Argentina.</p>
                     </div>
                 </div>

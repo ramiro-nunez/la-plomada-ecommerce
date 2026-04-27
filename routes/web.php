@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactoController;
 
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 
@@ -29,7 +29,7 @@ Route::get('/terms', function () {
 Route::get('/productos', function () {
     return view('productos');
 });
-Route::get('/', function () {
+Route::get('/iniciar-sesion', function () {
     return view('iniciar-sesion');
 });
 Route::get('/registrarse', function () {
