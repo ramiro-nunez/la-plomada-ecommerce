@@ -8,8 +8,8 @@
             <div class="col-md-4">
                 <h5>Enlaces</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-light text-decoration-none" data-bs-toggle="modal" data-bs-target="#en-construccion">Productos</a></li>
-                    <li><a href="#" class="text-light text-decoration-none" data-bs-toggle="modal" data-bs-target="#en-construccion">Ubicación</a></li>
+                    <li><a href="/productos" class="text-light text-decoration-none" >Productos</a></li>
+                    <li><a href="/terms" class="text-light text-decoration-none" >Terminos y Condiciones</a></li>
                 </ul>
             </div>
             <div class="col-md-4">

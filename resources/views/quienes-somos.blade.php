@@ -3,7 +3,6 @@
 @section('title', 'Quiénes Somos')
 
 @section('content')
-<div class="bg-light">
     <section class="text-white d-flex align-items-center justify-content-center quienes-hero">
         <h1 class="display-3 fw-bold">SOBRE NOSOTROS</h1>
     </section>
@@ -12,8 +11,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="card border-info shadow-sm p-4 p-md-5">
-                        <h2 class="text-primary fw-bold mb-4">Nuestra Historia</h2>
+                    <div class="card border-success shadow-sm p-4 p-md-5">
+                        <h2 class="text-success fw-bold mb-4">Nuestra Historia</h2>
                         <div class="text-muted lh-lg">
                             <p>
                                 <strong>La Plomada</strong> nació de la pasión por el Paraná y el aire libre, 
@@ -36,34 +35,34 @@
         </div>
     </section>
 
-    <section class="py-5 bg-white">
+    <section class="py-5">
         <div class="container text-center">
             <h2 class="fw-bold mb-5">Nuestros Valores</h2>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div class="p-4 border rounded-3 h-100 shadow-hover">
-                        <i class="bi bi-heart-fill text-primary display-5 mb-3"></i>
+                    <div class="p-4 border rounded-3 h-100 shadow-hover bg-light">
+                        <i class="bi bi-heart-fill text-success display-5 mb-3"></i>
                         <h3 class="h5 fw-bold">Pasión por la Naturaleza</h3>
                         <p class="small text-muted">Amamos lo que hacemos y compartimos tu pasión por las actividades al aire libre.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="p-4 border rounded-3 h-100 shadow-hover">
-                        <i class="bi bi-award-fill text-primary display-5 mb-3"></i>
+                    <div class="p-4 border rounded-3 h-100 shadow-hover bg-light">
+                        <i class="bi bi-award-fill text-success display-5 mb-3"></i>
                         <h3 class="h5 fw-bold">Calidad Garantizada</h3>
                         <p class="small text-muted">Seleccionamos cuidadosamente productos de marcas reconocidas y confiables.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="p-4 border rounded-3 h-100 shadow-hover">
-                        <i class="bi bi-people-fill text-primary display-5 mb-3"></i>
+                    <div class="p-4 border rounded-3 h-100 shadow-hover bg-light">
+                        <i class="bi bi-people-fill text-success display-5 mb-3"></i>
                         <h3 class="h5 fw-bold">Comunidad</h3>
                         <p class="small text-muted">Somos más que una tienda, somos una comunidad de aventureros y pescadores.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="p-4 border rounded-3 h-100 shadow-hover">
-                        <i class="bi bi-bullseye text-primary display-5 mb-3"></i>
+                    <div class="p-4 border rounded-3 h-100 shadow-hover bg-light">
+                        <i class="bi bi-bullseye text-success display-5 mb-3"></i>
                         <h3 class="h5 fw-bold">Compromiso</h3>
                         <p class="small text-muted">Nos comprometemos con tu satisfacción y el cuidado del medio ambiente.</p>
                     </div>
@@ -72,7 +71,7 @@
         </div>
     </section>
 
-    <section class="py-5 bg-primary text-white">
+    <section class="py-5 bg-success text-white">
         <div class="container">
             <div class="row text-center g-4">
                 <div class="col-6 col-md-3">
@@ -107,7 +106,7 @@
             </div>
         </div>
     </section>
-    <section class="py-5 bg-light">
+    <section class="py-5">
     <div class="container">
         <h2 class="text-center fw-bold mb-5">El Equipo detrás del Código</h2>
         <div class="row justify-content-center g-4">
@@ -118,17 +117,17 @@
                         <img src="{{ asset('img/devs/antonio.jpg') }}" alt="Antonio Quintana" class="w-100 h-100 object-fit-cover">
                     </div>
 
-                    <h4 class="fw-bold mb-1">Antonio Quintana <i class="bi bi-patch-check-fill text-primary"></i></h4>
-                    <p class="text-primary fw-semibold mb-3">Full Stack Developer</p>
+                    <h4 class="fw-bold mb-1">Antonio Quintana <i class="bi bi-patch-check-fill text-success"></i></h4>
+                    <p class="text-success fw-semibold mb-3">Full Stack Developer</p>
                     
                     <p class="text-muted small mb-4">
                         Estudiante de Sistemas en la <strong>UNNE</strong>. Experiencia con stack <strong>MERN</strong> y la resolución de problemas complejos mediante algoritmos eficientes. Transformo ideas en soluciones funcionales para <strong>La Plomada</strong>.
                     </p>
 
                     <div class="mb-4">
-                        <span class="badge bg-primary-subtle text-primary border border-primary- Beech">MERN Stack</span>
-                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle">PHP</span>
-                        <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Data Analist</span>
+                        <span class="badge bg-dark-subtle text-dark border ">MERN Stack</span>
+                        <span class="badge bg-dark-subtle text-dark border ">PHP</span>
+                        <span class="badge bg-dark-subtle text-dark border ">Data Analist</span>
                     </div>
 
                     <div class="d-flex justify-content-center gap-3">
@@ -151,8 +150,8 @@
                         <img src="{{ asset('img/devs/ramiro.jpg') }}" alt="Ramiro Núñez" class="w-100 h-100 object-fit-cover">
                     </div>
 
-                    <h4 class="fw-bold mb-1">Ramiro Núñez <i class="bi bi-patch-check-fill text-primary"></i></h4>
-                    <p class="text-primary fw-semibold mb-3">Lead Developer & AI Specialist</p>
+                    <h4 class="fw-bold mb-1">Ramiro Núñez <i class="bi bi-patch-check-fill text-success"></i></h4>
+                    <p class="text-success fw-semibold mb-3">Lead Developer & AI Specialist</p>
                     
                     <p class="text-muted small mb-4">
                         Estudiante de Sistemas en la UNNE. Experto en <strong>Python</strong> y automatización con <strong>n8n</strong>. Mi meta es innovar en el ecommerce local fusionando el código con la pasión por el aire libre.
@@ -177,5 +176,4 @@
         </div>
     </div>
 </section>
-</div>
 @endsection

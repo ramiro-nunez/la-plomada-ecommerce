@@ -8,7 +8,7 @@
         <h1 class="display-3 text-white fw-bold">CATÁLOGO</h1>
     </section>
     <!-- container Reeles -->
-    <section class="mt-0" style="background-color: #2D4030;">
+    <section class=" " style="background-color: #2D4030;">
     <div class="container py-5">
         <h2 class="text-center subtitulo-seccion text-white fw-bold mb-5">Reeles</h2>
         <div class="row justify-content-center align-items-center g-4">
@@ -165,7 +165,7 @@
                         <img src="{{ asset('img/catalogo/camisa.jpg') }}" class="w-100 h-100 object-fit-cover">
                     </div>
                     <h4 class="text-success fs-6 fs-sm-3 fw-bold mb-0">$110.000</h4>
-                    <h5 class="fw-semibold fs-6 fs-sm-3 mb-0">Camisa de Pesca Columbia PFG con Filtro UV</h5>
+                    <h5 class="fw-semibold fs-6 fs-sm-3 mb-0 pb-2">Camisa de Pesca Columbia PFG con Filtro UV</h5>
                 </div>
             </div>
             <!-- card indumentaria2 -->
@@ -175,7 +175,7 @@
                         <img src="{{ asset('img/catalogo/wader.jpg') }}" class="w-100 h-100 object-fit-cover">
                     </div>
                     <h4 class=" text-success fs-6 fs-sm-3 fw-bold mb-0">$350.000</h4>
-                    <h5 class=" fw-semibold fs-6 fs-sm-3 mb-0">Wader de Neoprene Waterdog (4mm)</h5>
+                    <h5 class=" fw-semibold fs-6 fs-sm-3 mb-0 pb-2">Wader de Neoprene Waterdog (4mm)</h5>
                 </div>
             </div>
             <!-- card indumentaria3 -->
@@ -185,7 +185,7 @@
                         <img src="{{ asset('img/catalogo/bolso.jpg') }}" class="w-100 h-100 object-fit-cover">
                     </div>
                     <h4 class="text-success fs-6 fs-sm-3 fw-bold mb-0">$42.000</h4>
-                    <h5 class="fw-semibold fs-6 fs-sm-3 mb-0">Bolso Estanco DryBag 20 Litros</h5>
+                    <h5 class="fw-semibold fs-6 fs-sm-3 mb-0 pb-2">Bolso Estanco DryBag 20 Litros</h5>
                 </div>
             </div>  
         </div>

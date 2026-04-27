@@ -1,13 +1,20 @@
 <?php
+namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactoController;
+
 
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/contactanos', function () {
     return view('contactanos');
 });
+
+Route::post('/contactanos', [ContactoController::class, 'procesar']);
+
 Route::get('/quienes-somos', function () {
     return view('quienes-somos');});
 

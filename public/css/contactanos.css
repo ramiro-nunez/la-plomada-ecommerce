@@ -1,7 +1,11 @@
 /* Header de contacto con el degradado de La Plomada */
 .contacto-hero {
     background: linear-gradient(135deg, #d68c0d 0%, #0c560d 100%);
-    padding: 4rem 0;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    min-height: 60vh;
+    height: 500px;
+    border-bottom: 3px solid #ff9900;
 }
 
 /* Efecto para las tarjetas de información */
