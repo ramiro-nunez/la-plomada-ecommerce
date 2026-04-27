@@ -131,15 +131,19 @@
                     </div>
 
                     <div class="d-flex justify-content-center gap-3">
-                        <a href="https://github.com/tu-usuario" target="_blank" class="btn btn-outline-dark btn-sm rounded-circle shadow-sm" title="GitHub">
+                        <a href="https://github.com/antonioQuintana" target="_blank" class="btn btn-outline-dark btn-sm rounded-circle shadow-sm" title="GitHub">
                             <i class="bi bi-github"></i>
                         </a>
-                        <a href="https://linkedin.com/in/tu-perfil" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle shadow-sm" title="LinkedIn">
+                        <a href="https://www.linkedin.com/in/ricardo-quintana-7b4287196" target="_blank" class="btn btn-outline-primary btn-sm rounded-circle shadow-sm" title="LinkedIn">
                             <i class="bi bi-linkedin"></i>
                         </a>
-                        <a href="mailto:quintanarijoan@gmail.com" class="btn btn-outline-danger btn-sm rounded-circle shadow-sm" title="Email">
-                            <i class="bi bi-envelope-at"></i>
-                        </a>
+                        <div class="position-relative d-flex flex-column align-items-center">
+                            <button type="button" class="btn btn-outline-danger btn-sm rounded-circle shadow-sm" title="Email"
+                                onclick="copiarEmail(this, 'quintanarijoan@gmail.com')">
+                                <i class="bi bi-envelope-at"></i>
+                            </button>
+                            <div class="mini-toast">¡Mail copiado!</div>
+                        </div>
                     </div>
                 </div>
             </div>  
@@ -167,13 +171,60 @@
                         <a href="https://github.com/ramiro-nunez" target="_blank" class="btn btn-outline-dark btn-sm rounded-circle shadow-sm" title="GitHub">
                             <i class="bi bi-github"></i>
                         </a>
-                        <a href="mailto:ramirosebastiann@gmail.com" class="btn btn-outline-danger btn-sm rounded-circle shadow-sm" title="Email">
-                            <i class="bi bi-envelope-at"></i>
-                        </a>
+                        <div class="position-relative d-flex flex-column align-items-center">
+                            <button type="button" class="btn btn-outline-danger btn-sm rounded-circle shadow-sm" title="Email"
+                                onclick="copiarEmail(this, 'ramirosebastiann@gmail.com')">
+                                <i class="bi bi-envelope-at"></i>
+                            </button>
+                            <div class="mini-toast">¡Mail copiado!</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+    function copiarEmail(button, email) {
+        const toast = button.parentElement.querySelector('.mini-toast');
+        if (!navigator.clipboard) {
+            const textarea = document.createElement('textarea');
+            textarea.value = email;
+            textarea.style.position = 'fixed';
+            textarea.style.left = '-9999px';
+            document.body.appendChild(textarea);
+            textarea.focus();
+            textarea.select();
+            try {
+                document.execCommand('copy');
+            } catch (err) {
+                console.error('Copy fallback failed', err);
+            }
+            document.body.removeChild(textarea);
+            mostrarToast(toast);
+            return;
+        }
+
+        navigator.clipboard.writeText(email)
+            .then(() => mostrarToast(toast))
+            .catch((error) => {
+                console.error('No se pudo copiar el email:', error);
+                mostrarToast(toast, 'No se pudo copiar el email');
+            });
+    }
+
+    function mostrarToast(toast, message = '¡Mail copiado!') {
+        toast.textContent = message;
+        toast.classList.add('show');
+
+        if (toast._timeout) {
+            clearTimeout(toast._timeout);
+        }
+
+        toast._timeout = setTimeout(() => {
+            toast.classList.remove('show');
+        }, 2000);
+    }
+    </script>
 </section>
+
 @endsection
