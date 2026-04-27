@@ -20,7 +20,7 @@
             
             <div class="row m-1 ">
               <button type="submit" class="btn btn-success mt-3 mx-auto">Registrarse</button>
-              <a class="btn btn-danger mt-2 mx-auto"  href="/" type="cancel">Cancelar</a>
+              <a class="btn btn-danger mt-2 mx-auto"  href="/" type="cancel"> Cancelar</a>
             </div>
           </form>
         </div>

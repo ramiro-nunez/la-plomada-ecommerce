@@ -10,13 +10,18 @@ class RegisterLoginController extends Controller
         $nombre = $request->input('nombre'); 
         $email = $request->input('email'); 
         $contrasena = $request->input('contrasena');
-        
-        return view('exito-registro', [ 'nombre' => $nombre, 'email' => $email, 'contrasena' => $contrasena ]);
+        $mensaje= "Gracias por registrarte, ". $nombre . "! Prepará las cañas.";
+        return redirect('/')->with('status', $mensaje);
     }
     public function loguear(Request $request) { 
-        $contrasena = $request->input('contrasena'); 
-        $email = $request->input('email'); 
+        $email = $request->input('email');
+        session(['user_email'=> $request->input('email')]);
+        $mensaje = 'Bienvenido de nuevo! '. $email . ", Preparamos las mejores ofertas para vos!";
+        return redirect('/')->with('status', $mensaje);
+    }
+    public function salir() { 
+        session()->forget(['user_email']);
         
-        return view('exito-login', ['email' => $email, 'contrasena' => $contrasena ]);
+        return redirect('/')->with('status', 'Sesión cerrada!');
     }
 }

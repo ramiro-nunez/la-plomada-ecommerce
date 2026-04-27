@@ -12,7 +12,15 @@
           <a class="nav-link {{ request()->is('productos') ? 'nav-active' : ''}}" href="/productos" >Catálogo</a>
           <a class="nav-link {{ request()->is('terms') ? 'nav-active' : ''}}" href="/terms">Terminos y condiciones</a>
           <a class="nav-link {{ request()->is('contactanos') ? 'nav-active' : ''}}" href="/contactanos">Contacto</a>
-          <a class="btn btn-success mx-4 mt-1" href="/iniciar-sesion">Iniciar Sesión</a>
+          
+          @if(session()->has('user_email'))
+            <a class="nav-link text-danger" href="{{ url('/salir') }}">
+                <i class="bi bi-box-arrow-right"></i> Cerrar Sesión
+            </a>
+          @else
+            <a class="nav-link text-warning" href="/iniciar-sesion">
+            <i class="bi bi-person-lock"></i>Iniciar Sesión</a>
+          @endif
         </div>
       </div>
   </div>

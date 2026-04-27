@@ -39,3 +39,4 @@ Route::get('/registrarse', function () {
 
 Route::post('/registrarse', [RegisterLoginController::class, 'registrar']);
 Route::post('/iniciar-sesion', [RegisterLoginController::class, 'loguear']);
+Route::get('/salir', [RegisterLoginController::class, 'salir']);
