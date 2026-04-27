@@ -1,7 +1,7 @@
 <!-- Componente del navbar -->
 <nav class="navbar navbar-expand-lg navbar-plomada">
   <div class="container-fluid d-flex justify-content-center">
-      <a class="navbar-brand  {{ request()->is('/') ? 'nav-active' : ''}}" href="/">La plomada</a>
+      <a class="navbar-brand mb-1  {{ request()->is('/') ? 'nav-active' : ''}}" href="/">La plomada</a>
       <button class="navbar-toggler position-absolute end-0" data-as-theme="white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
@@ -14,7 +14,7 @@
           <a class="nav-link {{ request()->is('contactanos') ? 'nav-active' : ''}}" href="/contactanos">Contacto</a>
         </div>
       </div>
-      <a class="btn btn-success mx-4" href="/iniciar-sesion">Iniciar Sesión</a>
+      <a class="btn btn-success mx-4 mt-1" href="/iniciar-sesion">Iniciar Sesión</a>
   </div>
 </nav>
 <!-- Fin Navbar -->
