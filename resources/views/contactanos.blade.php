@@ -57,12 +57,12 @@
                             @csrf
                             <div class="mb-3">
                                 <label for="nombre" class="form-label fw-semibold">Nombre Completo *</label>
-                                <input type="text" id="nombre" name="nombre" class="form-control form-control-lg" placeholder="Tu nombre" required>
+                                <input id="nombre" name="nombre" class="form-control" type="text" placeholder="Ingresa tu nombre" required>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <label for="email" class="form-label fw-semibold">Email *</label>
-                                    <input type="email" id="email" name="email" class="form-control" placeholder="juan@ejemplo.com" required>
+                                    <input id="email" name="email" class="form-control" type="email" placeholder="ejemplo@gmail.com" required>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label for="telefono" class="form-label fw-semibold">Teléfono</label>

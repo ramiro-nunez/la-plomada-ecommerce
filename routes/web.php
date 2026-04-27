@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\RegisterLoginController;
 
 
 Route::get('/', function () {
@@ -35,3 +36,6 @@ Route::get('/iniciar-sesion', function () {
 Route::get('/registrarse', function () {
     return view('registro-usuario');
 });
+
+Route::post('/registrarse', [RegisterLoginController::class, 'registrar']);
+Route::post('/iniciar-sesion', [RegisterLoginController::class, 'loguear']);
