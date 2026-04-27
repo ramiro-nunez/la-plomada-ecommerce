@@ -246,12 +246,12 @@
                 <p class="lead opacity-75 mb-5">Nuestro equipo está disponible para ayudarte con cualquier consulta</p>
                 
                 <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
-                    <a href="#" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 border-2">
+                    <div class="border border-light rounded-pill px-4 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 text-white">
                         <i class="bi bi-telephone-fill"></i> +54 3794 11-1111
-                    </a>
-                    <a href="#" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 border-2">
+                    </div>
+                    <div class="border border-light rounded-pill px-4 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 text-white">
                         <i class="bi bi-envelope-fill"></i> info@laplomada.com.ar
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>

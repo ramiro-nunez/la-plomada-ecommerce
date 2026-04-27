@@ -48,3 +48,30 @@
 .dev-card:hover img {
     filter: grayscale(0%);
 }
+.mini-toast {
+    visibility: hidden;
+    min-width: 120px;
+    background-color: #333; /* Color oscuro tipo plomo */
+    color: #fff;
+    text-align: center;
+    border-radius: 25px; /* Redondeadito */
+    padding: 6px 12px;
+    position: absolute;
+    z-index: 1000;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    font-size: 13px;
+    opacity: 0;
+    margin-top: 0.5rem;
+    white-space: nowrap;
+    transition:
+        opacity 0.2s,
+        transform 0.2s;
+}
+
+.mini-toast.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
