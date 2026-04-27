@@ -7,7 +7,7 @@
   <div class="row justify-content-center">
     <div class="col-12 col-md-8">
       <div class="card shadow-lg bg">
-        <h2 class="mx-4 mt-3">Iniciar Sesión</h2>
+        <h3 class="mx-4 mt-3">Iniciar Sesión</h3>
         <div class="m-3">
           <form action="">
             <label class="form-label mx-2" for="">Correo electrónico</label>

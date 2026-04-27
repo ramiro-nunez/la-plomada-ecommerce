@@ -4,7 +4,7 @@
 
 @section('content')
     <section class="text-white d-flex align-items-center justify-content-center quienes-hero">
-        <h1 class="display-3 fw-bold">SOBRE NOSOTROS</h1>
+        <h1 class="display-5 text-center fw-bold">SOBRE NOSOTROS</h1>
     </section>
  
     <section class="py-3">
@@ -12,7 +12,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="card border-success shadow-sm p-4 p-md-5">
-                        <h2 class="text-success fw-bold mb-4">Nuestra Historia</h2>
+                        <h3 class="text-success fw-bold mb-4">Nuestra Historia</h3>
                         <div class="text-muted lh-lg">
                             <p>
                                 <strong>La Plomada</strong> nació de la pasión por el Paraná y el aire libre, 
@@ -37,7 +37,7 @@
 
     <section class="py-5">
         <div class="container text-center">
-            <h2 class="fw-bold mb-5">Nuestros Valores</h2>
+            <h2 class="fw-bold subtitulo-seccion mb-5">Nuestros Valores</h2>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
                     <div class="p-4 border rounded-3 h-100 shadow-hover bg-light">
@@ -96,7 +96,7 @@
 
     <section class="py-5">
         <div class="container text-center">
-            <h2 class="fw-bold mb-4">Un Equipo Apasionado</h2>
+            <h2 class="fw-bold subtitulo-seccion mb-4">Un Equipo Apasionado</h2>
             <div class="card border-0 shadow-sm p-4 max-w-700 mx-auto">
                 <p class="text-muted mb-0">
                     No somos solo vendedores, somos <strong>compañeros de aventura</strong>. 
@@ -108,7 +108,7 @@
     </section>
     <section class="py-5">
     <div class="container">
-        <h2 class="text-center fw-bold mb-5">El Equipo detrás del Código</h2>
+        <h2 class="text-center subtitulo-seccion fw-bold mb-5">El Equipo detrás del Código</h2>
         <div class="row justify-content-center g-4">
             <div class="col-md-5 col-lg-4">
                 <!-- card antonio -->

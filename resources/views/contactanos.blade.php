@@ -52,7 +52,7 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="bg-white rounded-4 shadow p-4 p-md-5">
-                        <h2 class="fw-bold mb-4">Envíanos un Mensaje</h2>
+                        <h3 class="fw-bold mb-4">Envíanos un Mensaje</h3>
                         <form action="{{ url('/contactanos') }}" method="POST">
                             @csrf
                             <div class="mb-3">
@@ -119,7 +119,7 @@
                     </div>
 
                     <div class="mt-5">
-                        <h4 class="fw-bold mb-3">Ubicación</h4>
+                        <h2 class="fw-bold mb-3">Ubicación</h2>
                         <div class="rounded-4 overflow-hidden shadow-sm border" style="height: 250px; background: #eee; display: grid; place-items: center;">
                             <div class="text-center">
                                 <i class="bi bi-geo-alt-fill text-danger display-4"></i>

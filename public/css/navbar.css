@@ -1,13 +1,13 @@
 /* Fondo personalizado */
 .navbar-plomada {
-    background-color: #2d4030;
-    border-bottom: 3px solid #ff9900;
+    background-color: #2d3a27;
+    border-bottom: 3px solid #ff8c00;
     padding: 1rem 2rem;
     min-height: auto;
 }
 
 .navbar-brand {
-    color: #ffffff;
+    color: #f4f4f4;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -28,10 +28,6 @@
 .nav-link:hover {
     color: #ff9900;
     transform: translateY(-2px);
-}
-
-.navbar-collapse {
-    background-color: #2d4030;
 }
 
 .navbar-toggler-icon {
