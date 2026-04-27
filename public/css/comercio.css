@@ -1,46 +1,50 @@
+/* Una versión más fuerte para cuando el fondo es muy "ruidoso" */
+h2 {
+    text-shadow:
+        0px 0px 10px rgba(0, 0, 0, 0.9),
+        2px 2px 5px rgba(0, 0, 0, 1);
+    color: white;
+}
 /* Estilos para el header de comercio */
 .encabezado-comercio {
-    position: relative;
     background:
         linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)),
         url("../img/comercializacion/vendedor.png");
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    min-height: 60vh;
-    height: 500px;
+    width: 100%;
+    aspect-ratio: 16 / 8; /* El alto se calcula solo en base al ancho */
+    min-height: 200px; /* Nunca medirá menos de esto */
+    max-height: 500px;
+    height: auto; /* Dejá que el aspect-ratio mande */
     border-bottom: 3px solid #e67e22;
 }
 
 .encabezado-terms {
-    position: relative;
     background:
         linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)),
         url("../img/terminos/terminos.png");
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    min-height: 60vh;
-    height: 500px;
+    width: 100%;
+    aspect-ratio: 16 / 8; /* El alto se calcula solo en base al ancho */
+    min-height: 200px; /* Nunca medirá menos de esto */
+    max-height: 500px;
+    height: auto; /* Dejá que el aspect-ratio mande */
     border-bottom: 3px solid #e67e22;
 }
 
 .encabezado-catalogo {
-    position: relative;
     background:
         linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)),
         url("../img/catalogo/catalogo.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    min-height: 60vh;
-    height: 500px;
+    width: 100%;
+    aspect-ratio: 16 / 8; /* El alto se calcula solo en base al ancho */
+    min-height: 200px; /* Nunca medirá menos de esto */
+    max-height: 500px;
+    height: auto; /* Dejá que el aspect-ratio mande */
     border-bottom: 3px solid #ff9900;
 }
 

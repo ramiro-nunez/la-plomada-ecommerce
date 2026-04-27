@@ -3,7 +3,7 @@
 
 @section('content')
     <div class="encabezado-comercio d-flex align-items-center justify-content-center">
-        <h1 class="fw-bold text-white display-3 text-center">COMERCIALIZACIÓN</h1>
+        <h1 class="display-5 fw-bold text-white">COMERCIALIZACIÓN</h1>
     </div>
     <div class="fondo py-5">
         <div class="container py-4">
@@ -116,7 +116,7 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-6 fw-bold mb-3 subtitulo-seccion">Medios de Pago</h2>
-                <p class="text-secondary">Ofrecemos múltiples opciones de pago para tu comodidad y seguridad</p>
+                <p class="text-white fw-bold">Ofrecemos múltiples opciones de pago para tu comodidad y seguridad</p>
             </div>
             
             <div class="row g-4">
