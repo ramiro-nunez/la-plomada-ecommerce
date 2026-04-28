@@ -1,7 +1,6 @@
-@extends('app')
+@extends('app') <!-- Se extiende del padre app -->
 
 @section('title', 'Quiénes Somos')
-
 @section('content')
     <section class="text-white d-flex align-items-center justify-content-center quienes-hero">
         <h1 class="display-5 text-center fw-bold">SOBRE NOSOTROS</h1>

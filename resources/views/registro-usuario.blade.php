@@ -1,7 +1,6 @@
-@extends('app')
+@extends('app') <!-- Se extiende del padre app -->
 
 @section('title', 'Registrarse')
-
 @section('content')<div class="container my-4">
   <div class="row justify-content-center">
     <div class="col-12 col-md-8">
@@ -9,7 +8,8 @@
         <h3 class="mx-4 mt-3">Registrese</h3>
         <div class="m-3">
           <form action="{{url('/registrarse') }}" method="POST">
-          @csrf
+          @csrf  <!-- Genera un token que es solicitado por Laravel 
+            buscando evitar ataques maliciosos -->
             <label class="form-label mx-2" for="nombre">Nombre</label>
             <input name="nombre" class="form-control" type="text" placeholder="Ingresa tu nombre" required>
             <label class="form-label mx-2" for="email">Correo electrónico</label>

@@ -1,7 +1,6 @@
-@extends('app')
+@extends('app') <!-- Se extiende del padre app -->
 
 @section('title', 'Productos')
-
 @section('content')
 <div class="fondo pb-2">
     <section class="encabezado-catalogo d-flex align-items-center justify-content-center">

@@ -1,6 +1,6 @@
-@extends('app')
-@section('title', 'Comercialización')
+@extends('app') <!-- Lo siguiente se extiende del padre app -->
 
+@section('title', 'Comercialización')
 @section('content')
     <div class="encabezado-comercio d-flex align-items-center justify-content-center">
         <h1 class="display-5 fw-bold text-white">COMERCIALIZACIÓN</h1>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Shipping Costs Table -->
+            <!-- tabla de costos de envio -->
             <div class="row justify-content-center mt-5">
                 <div class="col col-lg-8">
                     <div class="card shadow-sm border-0 d-flex flex-column">
@@ -111,7 +111,7 @@
             </div>
         </div>
     </div>
-    <!-- Payment Methods -->
+    <!-- Metodos de pago -->
     <div class="fondo py-4">
         <div class="container">
             <div class="text-center mb-5">
@@ -175,7 +175,7 @@
             </div>
         </div>
     </div>
-    <!-- Policies -->
+    <!-- Politicas -->
     <section class="fondo py-5">
         <div class="container py-4">
             <h2 class="display-6 fw-bold text-center mb-5 subtitulo-seccion">Políticas de Venta</h2>
@@ -238,7 +238,7 @@
         </div>
     </section>
 
-    <!-- Contact CTA -->
+    <!-- Info de contacto -->
     <section class="py-5 text-white" style="background-color: #2D4030;">
         <div class="container py-4 text-center">
             <div class="mx-auto" style="max-width: 800px;">
