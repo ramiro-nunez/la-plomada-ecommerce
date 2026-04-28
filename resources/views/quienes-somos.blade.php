@@ -111,7 +111,7 @@
         <div class="row justify-content-center g-4">
             <div class="col-md-5 col-lg-4">
                 <!-- card antonio -->
-                <div class="card border-0 shadow-sm text-center p-4 dev-card h-100">
+                <div class="shadow-hover card border-0 shadow-sm text-center p-4 dev-card h-100">
                     <div class="mx-auto mb-3 rounded-circle overflow-hidden shadow-sm" style="width: 140px; height: 140px; border: 4px solid #f8f9fa;">
                         <img src="{{ asset('img/devs/antonio.jpg') }}" alt="Antonio Quintana" class="w-100 h-100 object-fit-cover">
                     </div>
@@ -148,7 +148,7 @@
             </div>  
                 <!-- card ramiro -->
             <div class="col-md-5 col-lg-4">
-                <div class="card border-0 shadow-sm text-center p-4 dev-card h-100">
+                <div class=" shadow-hover card border-0 shadow-sm text-center p-4 dev-card h-100">
                     <div class="mx-auto mb-3 rounded-circle overflow-hidden shadow-sm" style="width: 140px; height: 140px; border: 4px solid #f8f9fa;">
                         <img src="{{ asset('img/devs/ramiro.jpg') }}" alt="Ramiro Núñez" class="w-100 h-100 object-fit-cover">
                     </div>

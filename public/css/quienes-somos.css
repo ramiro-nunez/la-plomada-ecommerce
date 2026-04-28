@@ -34,20 +34,6 @@
     border-radius: 20px;
 }
 
-.dev-card:hover {
-    transform: scale(1.05);
-    background: #ffffff;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-}
-
-.dev-card img {
-    filter: grayscale(20%);
-    transition: filter 0.3s;
-}
-
-.dev-card:hover img {
-    filter: grayscale(0%);
-}
 .mini-toast {
     visibility: hidden;
     min-width: 120px;
