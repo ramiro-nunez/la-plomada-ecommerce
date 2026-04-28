@@ -12,9 +12,9 @@
           <form action="{{url('iniciar-sesion')}}" method='POST'>
           @csrf
             <label class="form-label mx-2" for="email">Correo electrónico</label>
-            <input name='email'class="form-control" type="email" placeholder="ejemplo@gmail.com">
+            <input name='email'class="form-control" type="email" placeholder="ejemplo@gmail.com" required>
             <label class="form-label mx-2" for="contrasena">Contraseña</label>
-            <input name='contrasena'class="form-control" type="password" placeholder="********">
+            <input name='contrasena'class="form-control" type="password" placeholder="********" required>
             <span>¿No posee una cuenta?</span><a class="btn btn-info m-2" href="/registrarse">Registrese</a>
             <div class="row m-1 ">
               <button class="btn btn-success mt-3 mx-auto">Ingresar</button>
