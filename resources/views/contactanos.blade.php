@@ -1,13 +1,12 @@
-@extends('app')
+@extends('app')<!-- Lo siguiente se extiende del padre app -->
 
 @section('title', 'Contacto')
-
 @section('content')
 <div class="contacto-page">
     <section class="contacto-hero text-white d-flex align-items-center text-center py-5">
         <div class="container">
             <i class="bi bi-chat-dots display-1 mb-3"></i>
-            <h1 class="display-4 fw-bold">CONTÁCTANOS</h1>
+            <h1 class="display-4 fw-bold">CONTACTANOS</h1>
             <p class="lead opacity-90">Estamos aquí para ayudarte a equipar tu próxima aventura.</p>
         </div>
     </section>
@@ -54,7 +53,8 @@
                     <div class="bg-white rounded-4 shadow p-4 p-md-5">
                         <h3 class="fw-bold mb-4">Envíanos un Mensaje</h3>
                         <form action="{{ url('/contactanos') }}" method="POST">
-                            @csrf
+                            @csrf  <!-- Genera un token que es solicitado por Laravel 
+                             buscando evitar ataques maliciosos -->
                             <div class="mb-3">
                                 <label for="nombre" class="form-label fw-semibold">Nombre Completo *</label>
                                 <input id="nombre" name="nombre" class="form-control" type="text" placeholder="Ingresa tu nombre" required>

@@ -1,7 +1,6 @@
-@extends('app')
+@extends('app') <!-- Lo siguiente se extiende del padre app -->
 
 @section('title', 'Iniciar-Sesion')
-
 @section('content')
 <div class="container my-4">
   <div class="row justify-content-center">
@@ -10,7 +9,8 @@
         <h3 class="mx-4 mt-3">Iniciar Sesión</h3>
         <div class="m-3">
           <form action="{{url('iniciar-sesion')}}" method='POST'>
-          @csrf
+          @csrf <!-- Genera un token que es solicitado por Laravel 
+            buscando evitar ataques maliciosos -->
             <label class="form-label mx-2" for="email">Correo electrónico</label>
             <input name='email'class="form-control" type="email" placeholder="ejemplo@gmail.com" required>
             <label class="form-label mx-2" for="contrasena">Contraseña</label>
