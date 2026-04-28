@@ -51,7 +51,7 @@
         <div class="row justify-content-center align-items-center g-4">
             <!-- card caña1 -->
             <div class="col-sm-3">
-                <div class="border text-center product-card">
+                <div class="border text-center product-card-dark">
                     <div class="mx-auto mb-1 overflow-hidden product-img">
                         <img src="{{ asset('img/catalogo/cana1.jpg') }}" class="w-100 h-100 object-fit-cover">
                     </div>
@@ -61,7 +61,7 @@
             </div>
             <!-- card caña2 -->
             <div class="col-sm-3">
-                <div class="border text-center product-card">
+                <div class="border text-center product-card-dark">
                     <div class="mx-auto mb-1 overflow-hidden product-img">
                         <img src="{{ asset('img/catalogo/cana2.jpg') }}" class="w-100 h-100 ">
                     </div>
@@ -71,7 +71,7 @@
             </div>
             <!-- card caña3 -->
             <div class="col-sm-3">
-                <div class="border text-center product-card">
+                <div class="border text-center product-card-dark">
                     <div class="mx-auto mb-1 overflow-hidden product-img" >
                         <img src="{{ asset('img/catalogo/cana3.jpg') }}" class="w-100 h-100 ">
                     </div>
@@ -159,7 +159,7 @@
         <div class="row justify-content-center align-items-center g-4">
             <!-- card indumentaria1 -->
             <div class="col-sm-3 p-2 p-md-3">
-                <div class="border text-center product-card">
+                <div class="border text-center product-card-dark">
                     <div class="mx-auto mb-1 overflow-hidden product-img" >
                         <img src="{{ asset('img/catalogo/camisa.jpg') }}" class="w-100 h-100 object-fit-cover">
                     </div>
@@ -169,7 +169,7 @@
             </div>
             <!-- card indumentaria2 -->
             <div class="col-sm-3">
-                <div class="border text-center product-card">
+                <div class="border text-center product-card-dark">
                     <div class=" mx-auto mb-1 overflow-hidden product-img" >
                         <img src="{{ asset('img/catalogo/wader.jpg') }}" class="w-100 h-100 object-fit-cover">
                     </div>
@@ -179,7 +179,7 @@
             </div>
             <!-- card indumentaria3 -->
             <div class="col-sm-3">
-                <div class="border text-center product-card ">
+                <div class="border text-center product-card-dark ">
                     <div class="mx-auto mb-1 overflow-hidden product-img" >
                         <img src="{{ asset('img/catalogo/bolso.jpg') }}" class="w-100 h-100 object-fit-cover">
                     </div>

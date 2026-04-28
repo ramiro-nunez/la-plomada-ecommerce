@@ -9,7 +9,7 @@ h2 {
 .encabezado-comercio {
     background:
         linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)),
-        url("../img/comercializacion/vendedor.png");
+        url("../img/comercializacion/vendedor.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -23,7 +23,7 @@ h2 {
 .encabezado-terms {
     background:
         linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)),
-        url("../img/terminos/terminos.png");
+        url("../img/terminos/terminos.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -61,7 +61,7 @@ h2 {
             rgba(45, 58, 39, 1) 0%,
             rgba(45, 58, 39, 0) 60%
         ),
-        url("../img/bkg-img3.png");
+        url("../img/bkg-img3.jpg");
     /* Técnica de fijado */
     background-attachment: fixed; /* La imagen no se mueve al hacer scroll */
     background-position: center; /* Siempre centrada */

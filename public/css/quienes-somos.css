@@ -19,7 +19,7 @@
 .quienes-hero {
     background:
         linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)),
-        url("../img/sobrenos/nos-confianza.png");
+        url("../img/sobrenos/nos-confianza.jpg");
     background-size: cover;
     width: 100%;
     aspect-ratio: 16 / 8; /* El alto se calcula solo en base al ancho */

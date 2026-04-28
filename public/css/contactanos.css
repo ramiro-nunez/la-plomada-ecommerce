@@ -2,7 +2,7 @@
 .contacto-hero {
     background:
         linear-gradient(rgba(26, 56, 87, 0.404), rgba(0, 51, 102, 0.295)),
-        url("../img/contactanos.png");
+        url("../img/contactanos.jpg");
     background-size: cover;
     width: 100%;
     aspect-ratio: 16 / 8;
