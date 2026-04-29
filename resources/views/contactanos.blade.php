@@ -66,7 +66,7 @@
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label for="telefono" class="form-label fw-semibold">Teléfono</label>
-                                    <input type="tel" id="telefono" class="form-control" placeholder="+54 379...">
+                                    <input type="number" id="telefono" class="form-control" placeholder="+54 379...">
                                 </div>
                             </div>
                             <div class="mb-3">
