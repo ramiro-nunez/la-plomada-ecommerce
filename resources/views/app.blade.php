@@ -30,7 +30,9 @@
   </main>
 
   @include('partials.footer') <!-- Incluye el componente armado navbar -->
-
+  
   <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('js/db-fake.js') }}"></script>
+  <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

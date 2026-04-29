@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactoController;
 use App\Http\Controllers\RegisterLoginController;
+use App\Http\Controllers\ProductoController;
 
 /* Rutas que solo renderizan vistas */
 Route::get('/', function () {
