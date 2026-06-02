@@ -1,4 +1,4 @@
-@extends('app')
+@extends('app') <!-- Se extiende del padre app -->
 
 @section('title', 'Productos')
 <?php
@@ -125,7 +125,11 @@ $productosIndumentaria = [
             <!-- card caña -->
             @foreach ($productosCanas as $cana)
             <div class="col-sm-3">
+<<<<<<< HEAD
                 <div class=" text-center product-card-dark">
+=======
+                <div class="border text-center product-card-dark">
+>>>>>>> 88c79fcc5ddc846db5ba28a07809265bef6cc92b
                     <div class="mx-auto mb-1 overflow-hidden product-img">
                         <img src="/img/catalogo/{{ $cana['imagen'] }}" class="w-100 h-100 ">
                     </div>
@@ -133,7 +137,30 @@ $productosIndumentaria = [
                     <h5 class="fw-semibold fs-6 fs-sm-3 mb-0 pb-2">{{ $cana['nombre'] }} </h5>
                 </div>
             </div>
+<<<<<<< HEAD
             @endforeach
+=======
+            <!-- card caña2 -->
+            <div class="col-sm-3">
+                <div class="border text-center product-card-dark">
+                    <div class="mx-auto mb-1 overflow-hidden product-img">
+                        <img src="{{ asset('img/catalogo/cana2.jpg') }}" class="w-100 h-100 ">
+                    </div>
+                    <h4 class="text-success fs-6 fs-sm-3 fw-bold mb-0">$210.000</h4>
+                    <h5 class="fw-semibold fs-6 fs-sm-3 mb-0 pb-2">Caña Baitcasting Marine Sports Titan (1.98m)</h5>
+                </div>
+            </div>
+            <!-- card caña3 -->
+            <div class="col-sm-3">
+                <div class="border text-center product-card-dark">
+                    <div class="mx-auto mb-1 overflow-hidden product-img" >
+                        <img src="{{ asset('img/catalogo/cana3.jpg') }}" class="w-100 h-100 ">
+                    </div>
+                    <h4 class="text-success fs-6 fs-sm-3 fw-bold mb-0">$185.000</h4>
+                    <h5 class="fw-semibold fs-6 fs-sm-3 mb-0 pb-2">Caña de Mosca Waterdog Fly Series (#5)</h5>
+                </div>
+            </div>  
+>>>>>>> 88c79fcc5ddc846db5ba28a07809265bef6cc92b
         </div>
     </div>
     </section>
@@ -162,18 +189,49 @@ $productosIndumentaria = [
     <div class="container">
         <h2 class="text-center subtitulo-seccion fw-bold mb-5">Indumentaria</h2>
         <div class="row justify-content-center align-items-center g-4">
+<<<<<<< HEAD
             <!-- card indumentaria -->
             @foreach ($productosIndumentaria as $indumentaria)
             <div class="col-sm-3">
                 <div class=" text-center product-card-dark">
                     <div class="mx-auto mb-1 overflow-hidden product-img">
                         <img src="/img/catalogo/{{ $indumentaria['imagen'] }}" class="w-100 h-100 ">
+=======
+            <!-- card indumentaria1 -->
+            <div class="col-sm-3 p-2 p-md-3">
+                <div class="border text-center product-card-dark">
+                    <div class="mx-auto mb-1 overflow-hidden product-img" >
+                        <img src="{{ asset('img/catalogo/camisa.jpg') }}" class="w-100 h-100 object-fit-cover">
+>>>>>>> 88c79fcc5ddc846db5ba28a07809265bef6cc92b
                     </div>
                     <h4 class="text-success fs-6 fs-sm-3 fw-bold mb-0">{{ $indumentaria['precio'] }} </h4>
                     <h5 class="fw-semibold fs-6 fs-sm-3 mb-0 pb-2">{{ $indumentaria['nombre'] }} </h5>
                 </div>
             </div>
+<<<<<<< HEAD
             @endforeach
+=======
+            <!-- card indumentaria2 -->
+            <div class="col-sm-3">
+                <div class="border text-center product-card-dark">
+                    <div class=" mx-auto mb-1 overflow-hidden product-img" >
+                        <img src="{{ asset('img/catalogo/wader.jpg') }}" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <h4 class=" text-success fs-6 fs-sm-3 fw-bold mb-0">$350.000</h4>
+                    <h5 class=" fw-semibold fs-6 fs-sm-3 mb-0 pb-2">Wader de Neoprene Waterdog (4mm)</h5>
+                </div>
+            </div>
+            <!-- card indumentaria3 -->
+            <div class="col-sm-3">
+                <div class="border text-center product-card-dark ">
+                    <div class="mx-auto mb-1 overflow-hidden product-img" >
+                        <img src="{{ asset('img/catalogo/bolso.jpg') }}" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <h4 class="text-success fs-6 fs-sm-3 fw-bold mb-0">$42.000</h4>
+                    <h5 class="fw-semibold fs-6 fs-sm-3 mb-0 pb-2">Bolso Estanco DryBag 20 Litros</h5>
+                </div>
+            </div>  
+>>>>>>> 88c79fcc5ddc846db5ba28a07809265bef6cc92b
         </div>
     </div>
     </section>
